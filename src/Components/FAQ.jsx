@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Helmet } from "react-helmet";
 
 const faqs = [
   {
@@ -35,7 +36,13 @@ export default function FAQ() {
   const [open, setOpen] = useState(null);
 
   return (
-    <div className="bg-white">
+    <>
+      <Helmet>
+        <title>Business Class Flights FAQ | Travel Questions Answered</title>
+        <meta name="description" content="Find answers in our Business Class Flights FAQ about bookings, cancellations, refunds, airline policies, ticket changes, and premium travel services."/>
+        <link rel="canonical" href="https://www.business-classflights.com/faq" />
+      </Helmet>
+      <div className="bg-white">
       <div className="container" style={{ maxWidth: "900px" }}>
         <h2 className="fw-bold mb-4" style={{ fontSize: "36px" }}>
           Business Class FAQs
@@ -80,5 +87,6 @@ export default function FAQ() {
         ))}
       </div>
     </div>
+    </>
   );
 }

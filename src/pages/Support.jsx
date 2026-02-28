@@ -12,6 +12,11 @@ import {
 export default function Support() {
   return (
     <>
+      <Helmet>
+        <title>Travel Support Services | Business Class Assistance</title>
+        <meta name="description" content="Access professional Travel Support Services for booking changes, cancellations, upgrades, and airline assistance with expert customer care and guidance."/>
+        <link rel="canonical" href="https://www.business-classflights.com/support" />
+      </Helmet>
       {/* Main content with container */}
       <div className="container mt-5" style={{paddingTop : "50px"}}>
         {/* Page Header */}

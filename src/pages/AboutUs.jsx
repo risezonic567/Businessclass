@@ -12,9 +12,9 @@ export default function AboutUs() {
   return (
     <>
       <Helmet>
-        <title></title>
-        <meta name="description" content=""/>
-        <link rel="canonical" href="" />
+        <title>About Business Class Flights | Travel Experts</title>
+        <meta name="description" content="Learn about our Business Class Flights agency specializing in discounted international premium tickets, personalized service, and reliable travel support."/>
+        <link rel="canonical" href="https://www.business-classflights.com/about-us" />
       </Helmet>
       <div
         className="container-fluid p-0 position-relative"

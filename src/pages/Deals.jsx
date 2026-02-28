@@ -43,9 +43,9 @@ export default function Deals() {
   return (
     <>
       <Helmet>
-        <title></title>
-        <meta name="description" content=""/>
-        <link rel="canonical" href="" />
+        <title>Business Class Flight Deals | Save on Premium Airfare</title>
+        <meta name="description" content="Discover exclusive Business Class Flight Deals with major airlines. Save on international premium airfare with flexible options and personalized booking support."/>
+        <link rel="canonical" href="https://www.business-classflights.com/flights-deals" />
       </Helmet>
       <div
         className="container-fluid p-0"

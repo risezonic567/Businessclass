@@ -11,13 +11,14 @@ import AboutUs from "../pages/AboutUs";
 import PrivacyPolicy from "../pages/ProvicyPolicy";
 import TermCondition from "../pages/TermsCondition";
 import NotFound from "../pages/NotFound";
+import Blog from "../pages/Blog";
 
 export default function PathRouter() {
   return (
     <div>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/deals" element={<Deals />} />
+        <Route path="/flight-deals" element={<Deals />} />
         <Route path="/support" element={<Support />} />
         <Route path="/flight-status" element={<MyTrip />} />
         <Route path="/contact-us" element={<ContactUs />}/>
@@ -26,7 +27,9 @@ export default function PathRouter() {
         <Route path="/faq" element={<FAQ />}/>
         <Route path="/privacy-policy" element={<PrivacyPolicy />}/>
         <Route path="term&condition" element={<TermCondition/>} />
+        <Route path="/blogs" element={<Blog />} />
         <Route path="*" element={<NotFound />} />
+
       </Routes>
     </div>
   );

@@ -158,7 +158,7 @@ export default function Footer() {
               ["About Us", "/about-us"],
               ["Support", "/support"],
               ["Travel Blogs", "/blogs"],
-              ["Contact", "/contact-us"],
+              
             ].map(([name, link], index) => (
               <li key={index} style={{ marginBottom: "12px" }}>
                 <a href = {link} className="footer-link">
@@ -176,9 +176,8 @@ export default function Footer() {
             {[
               ["Privacy Policy", "/privacy-policy"],
               ["Terms & Condition", "/term&condition"],
-              ["Cancellation Policy", "#"],
               ["FAQ", "/faq"],
-              ["Feedback", "#"],
+              ["Contact", "/contact-us"],
             ].map(([name, link], index) => (
               <li key={index} style={{ marginBottom: "12px" }}>
                 <a href={link} className="footer-link">

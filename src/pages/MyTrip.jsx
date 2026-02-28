@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Helmet } from "react-helmet";
 
 export default function MyTrip() {
   const [mode, setMode] = useState("ticket");
@@ -11,7 +12,13 @@ export default function MyTrip() {
   
 
   return (
-    <div
+    <>
+      <Helmet>
+        <title>Flight Status Check | Track Your Flight Online</title>
+        <meta name="description" content="Track real-time Flight Status updates for domestic and international routes. Check departures, arrivals, delays, and schedule changes quickly and easily."/>
+        <link rel="canonical" href="https://www.business-classflights.com/flight-status" />
+      </Helmet>
+      <div
       className="min-vh-100 position-relative"
       style={{
         backgroundImage: "url('/photos/Trip_Banner.jpg.jpeg')",
@@ -135,5 +142,6 @@ export default function MyTrip() {
         </div>
       </div>
     </div>
+    </>
   );
 }

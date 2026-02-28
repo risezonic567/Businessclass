@@ -75,7 +75,7 @@ export default function PolularDestination() {
                     <p className="text-muted small flex-grow-1">
                       {item.description}
                     </p>
-                    <button className="btn btn-outline-primary btn-sm mt-3 align-self-start">
+                    <button className="btn btn-outline-info btn-sm mt-3 align-self-start">
                       View Deals
                     </button>
                   </div>
