@@ -24,13 +24,7 @@ export default function Banner() {
           padding-bottom: 40px;
         }
 
-        .banner-overlay {
-          background: linear-gradient(
-            180deg,
-            rgba(0,0,0,0.65),
-            rgba(0,0,0,0.85)
-          );
-        }
+        
 
         @media (max-width: 768px) {
           .banner-wrapper {

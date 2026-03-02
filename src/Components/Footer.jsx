@@ -15,9 +15,9 @@ import { Link } from "react-router-dom";
 export default function Footer() {
   const styles = {
     footer: {
-      background: "linear-gradient(135deg, #1e293b, #0f172a)",
+      background: "rgba(64, 121, 187, 0.9)",
       color: "#fff",
-      padding: "70px 20px 30px",
+      padding: "30px 20px",
       fontFamily: "'Inter', sans-serif",
     },
     container: {
@@ -43,7 +43,7 @@ export default function Footer() {
       margin: 0,
     },
     bottomBar: {
-      marginTop: "60px",
+      marginTop: "10px",
       paddingTop: "25px",
       borderTop: "1px solid #ffffff1a",
       textAlign: "center",
@@ -120,11 +120,11 @@ export default function Footer() {
         <div>
           <img
             style={{ width: "70px", marginBottom: "20px" }}
-            src="/photos/BusinessClassLogo.png"
+            src="/photos/BUSINESS-CLASS-FLIGHTS-LOGO.png"
             alt="Logo"
           />
 
-          <p style={{ fontSize: "0.9rem", lineHeight: "1.7", color: "#cbd5e1" }}>
+          <p style={{ fontSize: "0.9rem", lineHeight: "1.7", color: "white" }}>
             *Fares include all fuel surcharges, service fees, and taxes. Fares
             are subject to change and cannot be guaranteed until booking is
             complete.

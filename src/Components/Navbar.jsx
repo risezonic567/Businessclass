@@ -10,7 +10,6 @@ export default function Navbar() {
     { name: "FLIGHT DEALS", path: "/flight-deals" },
     { name : "ABOUT US" , path : "/about-us"},
     { name : "CONTACT US" , path : "/contact-us"},
-    
     { name: "FLIGHT STATUS", path: "/flight-status" }
   ];
 
@@ -18,7 +17,7 @@ export default function Navbar() {
     <nav
       className="navbar navbar-expand-lg fixed-top shadow-sm"
       style={{
-        background: "rgba(11, 37, 69, 0.9)",
+        background: "rgba(50, 85, 126, 0.9)",
         backdropFilter: "blur(10px)",
       }}
     >
@@ -27,16 +26,14 @@ export default function Navbar() {
         .navbar-toggler {
           border: none;
         }
-        .navbar-toggler-icon {
-          background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
-        }
+        
       `}</style>
 
       <div className="container-fluid">
         {/* LOGO */}
         <Link className="navbar-brand" to="/">
           <img
-            src="/photos/BusinessClassLogo.png"
+            src="/photos/BUSINESS-CLASS-FLIGHTS-LOGO.png"
             alt="logo"
             style={{ height: "68px" }}
           />
