@@ -26,7 +26,7 @@ export default function PathRouter() {
         <Route path="/contact-us" element={<ContactUs />}/>
         <Route path="/faq" element={<FAQ />}/>
         <Route path="/privacy-policy" element={<PrivacyPolicy />}/>
-        <Route path="term&condition" element={<TermCondition/>} />
+        <Route path="/term&condition" element={<TermCondition/>} />
         <Route path="/blogs" element={<Blog />} />
         <Route path="*" element={<NotFound />} />
 

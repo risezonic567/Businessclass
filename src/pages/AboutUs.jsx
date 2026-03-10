@@ -102,7 +102,7 @@ export default function AboutUs() {
           <div className="row g-4">
             <div className="col-md-6">
               <div className="p-4 border rounded-4 shadow-sm h-100">
-                <h4 className="fw-semibold mb-3">Our Mission</h4>
+                <h3 className="fw-semibold mb-3">Our Mission</h3>
                 <p>
                   Our mission is to help all travelers find business class fares
                   at an affordable price and make it easier for them to book as
@@ -116,7 +116,7 @@ export default function AboutUs() {
 
             <div className="col-md-6">
               <div className="p-4 border rounded-4 shadow-sm h-100">
-                <h4 className="fw-semibold mb-3">Our Vision</h4>
+                <h3 className="fw-semibold mb-3">Our Vision</h3>
                 <p>
                   We want to be a leader in premium travel services which
                   provide value and transparent pricing. Aiming to redefine the

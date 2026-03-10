@@ -117,9 +117,9 @@ export default function Deals() {
                   />
                 </div>
                 <div className="col-md-6 p-4 d-flex flex-column justify-content-center">
-                  <h3 className="fw-bold mb-2">
+                  <h2 className="fw-bold mb-2">
                     Mega International Sale 
-                  </h3>
+                  </h2>
                   <p className="text-muted">
                     Fly worldwide with premium airlines at special discounted
                     fares. Limited time only.

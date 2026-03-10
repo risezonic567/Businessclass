@@ -23,17 +23,17 @@ export default function ContactUs() {
       <Helmet>
         <title>Contact Business Class Flights | 24/7 Booking Support</title>
         <meta name="description" content="Contact with  Business Class Flights for expert booking assistance, fare inquiries, and premium travel support. Our team is available to help with your travel needs."/>
-        <link rel="canonical" href="https://www.business-classflights.com/about-us" />
+        <link rel="canonical" href="https://www.business-classflights.com/contact-us" />
       </Helmet>
       <div className="bg-light py-5" style={{ marginTop: "80px" }}>
         <div className="container">
           <div className="row align-items-center g-5">
             {/* Left content */}
             <div className="col-lg-5">
-              <h6 className="text-uppercase text-muted">Contact Us</h6>
-              <h2 className="fw-bold mb-3">
+              <h1 className="text-uppercase text-muted">Contact Us</h1>
+              <h3 className="fw-bold mb-3">
                 Talk to our Business Class Experts
-              </h2>
+              </h3>
               <p className="text-muted">
                 Need help finding the best business class fares or planning your
                 trip? Send us your details and our team will get back to you
