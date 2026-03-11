@@ -5,13 +5,14 @@ import Home from "../pages/Home";
 import Support from "../pages/Support";
 import MyTrip from "../pages/MyTrip";
 import Deals from "../pages/Deals";
-import ContactUs from "./ContactUs";
+// import ContactUs from "./ContactUs";
 import FAQ from "./FAQ";
 import AboutUs from "../pages/AboutUs";
 import PrivacyPolicy from "../pages/ProvicyPolicy";
 import TermCondition from "../pages/TermsCondition";
 import NotFound from "../pages/NotFound";
 import Blog from "../pages/Blog";
+import ContactUs from "../pages/ContactUs";
 
 export default function PathRouter() {
   return (
