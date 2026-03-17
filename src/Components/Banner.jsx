@@ -20,7 +20,7 @@ export default function Banner() {
       <style>{`
         .banner-wrapper {
           min-height: 100vh;
-          padding-top: 120px; /* FIXED NAVBAR SPACE */
+          padding-top: 120px; /* FIXED NAVBAR SPACE. */
           padding-bottom: 40px;
         }
 
