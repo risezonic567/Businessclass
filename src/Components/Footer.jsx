@@ -156,7 +156,7 @@ export default function Footer() {
               ["Home", "/"],
               ["About Us", "/about-us"],
               ["Support", "/support"],
-              ["Travel Blogs", "/blogs"],
+              ["Travel Blogs", "/blog"],
 
             ].map(([name, link], index) => (
               <li key={index} style={{ marginBottom: "12px" }}>

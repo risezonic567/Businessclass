@@ -4,40 +4,43 @@ import { Link } from "react-router-dom";
 
 export default function BlogCard({ post }) {
   return (
-    <div className="bg-white rounded-xl overflow-hidden shadow hover:shadow-lg transition">
+    <div className="card h-100 shadow-sm border-0">
+
       <img
         src={post.image}
         alt={post.title}
-        className="w-full h-52 object-cover"
+        className="card-img-top"
+        style={{ height: "210px", objectFit: "cover" }}
       />
 
-      <div className="p-5">
-        <span className="text-sm text-blue-600">
-            {post.category}
+      <div className="card-body">
+
+        <span className="text-primary small">
+          {post.category}
         </span>
 
-        <div className="flex items-center text-gray-500 text-sm mt-1">
-          <Calendar className="w-4 h-4 mr-1" />
+        <div className="d-flex align-items-center text-secondary small mt-1">
+          <Calendar size={14} className="me-1" />
           {new Date(post.date).toDateString()}
         </div>
 
-        <h2 className="text-lg font-semibold mt-2 line-clamp-2">
+        <h5 className="fw-semibold mt-2">
           {post.title}
-        </h2>
+        </h5>
 
-        <p className="text-gray-600 text-sm mt-2 line-clamp-3">
+        <p className="text-secondary small mt-2">
           {post.excerpt}
         </p>
 
-        <div className="flex items-center justify-between text-gray-500 text-sm mt-3 gap-4">
+        <div className="d-flex justify-content-between text-secondary small mt-3">
 
-          <span className="flex items-center">
-            <Clock className="w-4 h-4 mr-1" />
+          <span className="d-flex align-items-center">
+            <Clock size={14} className="me-1" />
             {post.readingTime}
           </span>
 
-          <span className="flex items-center">
-            <Eye className="w-4 h-4 mr-1" />
+          <span className="d-flex align-items-center">
+            <Eye size={14} className="me-1" />
             {post.views}
           </span>
 
@@ -45,10 +48,11 @@ export default function BlogCard({ post }) {
 
         <Link
           to={`/blog/${post.slug}`}
-          className="text-blue-600 font-medium mt-4 inline-block"
+          className="text-primary fw-semibold mt-3 d-inline-block"
         >
           Read More →
         </Link>
+
       </div>
     </div>
   );
