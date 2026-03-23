@@ -165,9 +165,9 @@ export default function Home() {
 
       <Discound />
       <PolularDestination />
-      <div className="bg-white">
+      <div className="bg-blue">
         <div className="container" style={{ maxWidth: "900px" }}>
-          <h3 className="fw-bold mb-4" style={{ fontSize: "36px" }}>
+          <h3 className="fw-bold mb-4 text-center" style={{ fontSize: "36px",color:"blue" }}>
             Business Class FAQs
           </h3>
 

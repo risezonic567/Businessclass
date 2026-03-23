@@ -104,7 +104,7 @@ export default function Support() {
             <a
               href="tel:(866)307-5957"
               className="btn  d-flex align-items-center gap-2"
-              style={{ background: "linear-gradient(135deg,#ff3c3c,#ff8c00)" }}
+              style={{ background: "blue" }}
             >
               <Phone size={18} /> (866)307-5957
             </a>

@@ -45,7 +45,11 @@ export default function PolularDestination() {
       <section className="py-5 bg-white">
         <div className="container">
           <div className="text-center mb-5">
-            <h2 className="fw-bold display-6">
+            <h2 className="fw-bold display-6" style={{
+              color: "blue",
+              backdropFilter: "blur(50px)",
+             
+            }} >
               Popular Business Class Flight Destinations
             </h2>
             <p
@@ -75,7 +79,7 @@ export default function PolularDestination() {
                     <p className="text-muted small flex-grow-1">
                       {item.description}
                     </p>
-                    <button className="btn btn-outline-info btn-sm mt-3 align-self-start">
+                    <button className="btn btn-outline-yellow btn-sm mt-3 align-self-start text-light" style={{ "background": "blue" }}>
                       View Deals
                     </button>
                   </div>

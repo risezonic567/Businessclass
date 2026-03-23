@@ -52,7 +52,7 @@ export default function Blog() {
 
           </div>
 
-          <div className="text-center mt-5 p-4 bg-white rounded shadow-sm">
+          <div className="text-center mt-5 p-4 bg-yellow rounded shadow-sm">
 
             <h2 className="h4 fw-bold mb-3">
               Ready to book your dream flight?
@@ -64,7 +64,7 @@ export default function Blog() {
 
             <a
               href="/"
-              className="btn btn-info text-white px-4 py-2 fw-semibold"
+              className="btn btn-info text-yellow px-4 py-2 fw-semibold"
             >
               Start Your Flight Search
             </a>

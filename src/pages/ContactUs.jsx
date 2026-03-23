@@ -56,7 +56,7 @@ export default function ContactUs() {
             {/* Left content */}
             <div className="col-lg-5">
               <h1 className="text-uppercase text-muted">Contact Us</h1>
-              <h2 className="fw-bold mb-3">
+              <h2 className="fw-bold mb-3 text-primary">
                 Talk to our Business Class Experts
               </h2>
               <p className="text-muted">
@@ -134,7 +134,7 @@ export default function ContactUs() {
                         type="submit"
                         className="btn  w-100 py-3"
                         style={{
-                          background: "linear-gradient(135deg,#ff3c3c,#ff8c00)",
+                          background: "blue",
                           color: "white",
                           fontWeight: "700",
                         }}

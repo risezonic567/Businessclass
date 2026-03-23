@@ -6,13 +6,10 @@ export default function Banner() {
   return (
     <div className="position-relative text-white banner-wrapper">
       {/* Background Image */}
-      <img
-        src="/photos/Business_Class_Banner_1.jpg.jpeg"
-        alt="Flight Background"
+    
+<video src="/video/video.mp4" loop muted autoPlay playsInline alt="Flight Background"
         className="position-absolute top-0 start-0 w-100 h-100"
-        style={{ objectFit: "cover" }}
-      />
-
+        style={{ objectFit: "cover" }}></video>
       {/* Dark Overlay */}
       <div className="position-absolute top-0 start-0 w-100 h-100 banner-overlay" />
 
@@ -62,7 +59,7 @@ export default function Banner() {
         }
 
         .trip-tab.active {
-          color: #ff8c00;
+          color: black;
         }
 
         .trip-tab.active::after {
@@ -72,7 +69,7 @@ export default function Banner() {
           left: 0;
           width: 100%;
           height: 3px;
-          background: linear-gradient(135deg,#ff3c3c,#ff8c00);
+          background: black;
           border-radius: 10px;
         }
 
@@ -85,7 +82,7 @@ export default function Banner() {
           height: 50px;
           border-radius: 14px;
           font-weight: 600;
-          background: linear-gradient(135deg,#ff3c3c,#ff8c00);
+          background:blue;
           color: white;
           border: none;
           transition: all 0.3s;
@@ -97,9 +94,10 @@ export default function Banner() {
       `}</style>
 
       {/* Content */}
-      <div className="container position-relative text-center px-3">
+      <div className="container position-relative text-center px-3 relative mt-5 my-5">
         {/* Heading */}
-        <h1 className="fw-bold mb-2 banner-title">
+        <div className="absolute bottom-0 mt-5">
+          <h1 className="fw-bold mb-2 banner-title">
           Get Luxury Business & First Class flights deals 
         </h1>
 
@@ -109,8 +107,8 @@ export default function Banner() {
 
         {/* Search Box */}
         <div
-          className="glass-card p-4 mx-auto"
-          style={{ maxWidth: "950px", color: "#000" }}
+          className="glass-card p-4 mx-auto mt-5"
+          style={{ maxWidth: "950px", color: "#000" ,opacity:"revert-layer"}}
         >
           {/* Trip Toggle */}
           <div className="d-flex gap-4 mb-3 justify-content-start">
@@ -177,6 +175,7 @@ export default function Banner() {
               <button className="search-btn w-100">Search Flights</button>
             </div>
           </div>
+        </div>
         </div>
       </div>
     </div>

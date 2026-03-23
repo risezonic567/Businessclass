@@ -60,7 +60,7 @@ export default function AboutUs() {
       </div>
 
       <section className="py-5">
-        <div className="container text-center">
+        <div className="container text-center" style={{color:"blue"}}>
           <h2 className="fw-bold mb-4">
             Why Book Business Class Flights With Us?
           </h2>
@@ -93,7 +93,7 @@ export default function AboutUs() {
 
             {/* Content Column */}
             <div className="col-md-6">
-              <h2 className="fw-bold mb-3">Who We Are</h2>
+              <h2 className="fw-bold mb-3 " style={{color:"blue"}}>Who We Are</h2>
               <p>
                 Business Class Flights is a travel agency that focuses on
                 corporate and/or personal management of travel to help customers
@@ -118,7 +118,7 @@ export default function AboutUs() {
           <div className="row g-4">
             <div className="col-md-6">
               <div className="p-4 border rounded-4 shadow-sm h-100">
-                <h3 className="fw-semibold mb-3">Our Mission</h3>
+                <h3 className="fw-semibold mb-3" style={{color:"blue"}}>Our Mission</h3>
                 <p>
                   Our mission is to help all travelers find business class fares
                   at an affordable price and make it easier for them to book as
@@ -132,7 +132,7 @@ export default function AboutUs() {
 
             <div className="col-md-6">
               <div className="p-4 border rounded-4 shadow-sm h-100">
-                <h3 className="fw-semibold mb-3">Our Vision</h3>
+                <h3 className="fw-semibold mb-3" style={{color:"blue"}}>Our Vision</h3>
                 <p>
                   We want to be a leader in premium travel services which
                   provide value and transparent pricing. Aiming to redefine the
@@ -155,7 +155,7 @@ export default function AboutUs() {
         <div className="container py-4">
           <div className="row align-items-center g-5">
             <div className="col-lg-6">
-              <h2 className="fw-bold display-5 mb-4">
+              <h2 className="fw-bold display-5 mb-4" style={{color:"blue"}}>
                 Why Choose Business Class Flights
               </h2>
 
@@ -198,7 +198,7 @@ export default function AboutUs() {
       </section>
 
       <section className="container py-5">
-        <h2 className="text-center fw-bold mb-5">Our Values</h2>
+        <h2 className="text-center fw-bold mb-5" style={{color:"blue"}}>Our Values</h2>
 
         <div className="row g-4">
           <div className="col-md-3">

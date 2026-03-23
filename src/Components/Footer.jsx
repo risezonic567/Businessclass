@@ -15,10 +15,14 @@ import { Link } from "react-router-dom";
 export default function Footer() {
   const styles = {
     footer: {
-      background: "rgba(64, 121, 187, 0.9)",
+    
       color: "#fff",
       padding: "30px 20px",
       fontFamily: "'Inter', sans-serif",
+ background: "linear-gradient( 170deg,#fff,#333, #333)",
+  backdropFilter: "blur(50px)",
+  boxShadow: "0 4px 20px rgba(0,0,0,0.3)"
+
     },
     container: {
       maxWidth: "1200px",
@@ -106,12 +110,13 @@ export default function Footer() {
         .footer-grid > div {
           align-items: center;
         }
+          
       }
     `,
   };
 
   return (
-    <footer style={styles.footer}>
+    <footer style={styles.footer} >
       <style>{styles.inlineCSS}</style>
 
       <div className="footer-grid" style={styles.container}>

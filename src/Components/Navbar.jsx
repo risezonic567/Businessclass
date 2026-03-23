@@ -8,8 +8,8 @@ export default function Navbar() {
   const navLinks = [
     { name: "HOME", path: "/" },
     { name: "FLIGHT DEALS", path: "/flight-deals" },
-    { name : "ABOUT US" , path : "/about-us"},
-    { name : "CONTACT US" , path : "/contact-us"},
+    { name: "ABOUT US", path: "/about-us" },
+    { name: "CONTACT US", path: "/contact-us" },
     { name: "FLIGHT STATUS", path: "/flight-status" }
   ];
 
@@ -17,11 +17,12 @@ export default function Navbar() {
     <nav
       className="navbar navbar-expand-lg fixed-top shadow-sm"
       style={{
-        background: "rgba(50, 85, 126, 0.9)",
-        backdropFilter: "blur(10px)",
+        background: "linear-gradient( 130deg,#fff,#222, #888)",
+        backdropFilter: "blur(50px)",
+        boxShadow: "0 4px 20px rgba(0,0,0,0.3)"
       }}
     >
-      
+
       <style>{`
         .navbar-toggler {
           border: none;
@@ -31,11 +32,12 @@ export default function Navbar() {
 
       <div className="container-fluid">
         {/* LOGO */}
-        <Link className="navbar-brand" to="/">
+        <Link className="navbar-brand d-flex align-items-center" to="/">
           <img
             src="/photos/BUSINESS-CLASS-FLIGHTS-LOGO.png"
             alt="logo"
-            style={{ height: "68px" }}
+            className="ms-5 "
+            width={95} height={70}
           />
         </Link>
 
@@ -65,9 +67,9 @@ export default function Navbar() {
                     to={item.path}
                     className="nav-link fw-semibold"
                     style={{
-                      color: isActive ? "#ff8c00" : "white",
+                      color: isActive ? "blue" : "white",
                       borderBottom: isActive
-                        ? "3px solid #ff8c00"
+                        ? "3px solid blue"
                         : "3px solid transparent",
                       paddingBottom: "6px",
                       transition: "0.3s",
@@ -85,7 +87,7 @@ export default function Navbar() {
             <a
               href="tel:(866)307-5957"
               style={{
-                background: "linear-gradient(135deg,#ff3c3c,#ff8c00)",
+                background: "blue",
                 color: "white",
                 borderRadius: "30px",
                 padding: "8px 22px",

@@ -83,7 +83,7 @@ export default function MyTrip() {
                   style={{
                     background:
                       mode === "email"
-                        ? "linear-gradient(135deg,#ff6a00,#ff3c3c)"
+                        ? "blue"
                         : "transparent",
                     transition: "0.3s",
                     
@@ -100,7 +100,7 @@ export default function MyTrip() {
                   style={{
                     background:
                       mode === "ticket"
-                        ? "linear-gradient(135deg,#ff6a00,#ff3c3c)"
+                        ? "blue"
                         : "transparent",
                     transition: "0.3s",
                     
@@ -146,14 +146,14 @@ export default function MyTrip() {
               <button
                 className="btn w-100 py-2 fw-semibold"
                 style={{
-                  background: "linear-gradient(135deg,#ff3c3c,#ff8c00)",
+                  background: "blue",
                   color: "white",
                 }}
               >
                 Find My Booking
               </button>
 
-              <h2 className="text-center text-muted small mt-3 mb-0">
+              <h2 className="text-center text-muted small mt-3 mb-0" >
                 Need help? Contact our 24×7 support team
               </h2>
             </div>

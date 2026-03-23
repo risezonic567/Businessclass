@@ -56,7 +56,7 @@ export default function CustomerTrust() {
             transition: "all 0.9s ease-out",
           }}
         >
-          <h2 className="fw-bold mb-3">
+          <h2 className="fw-bold mb-3" style={{color:"blue"}}>
             Business Class Travel Specialists Dedicated To You.
           </h2>
 
@@ -112,7 +112,7 @@ export default function CustomerTrust() {
             transition: "all 1s ease-out",
           }}
         >
-          <h4 className="fw-bold mb-3">
+          <h4 className="fw-bold mb-3" style={{color:"blue"}}>
              Personalized Discount Business & First Class Flight Booking
           </h4>
 
@@ -124,7 +124,7 @@ export default function CustomerTrust() {
             href="tel:(866)307-5957"
             className="btn mt-2"
             style={{
-              background: "linear-gradient(135deg,#ff3c3c,#ff8c00)",
+              background: "blue",
               color: "white",
               padding: "10px 22px",
               borderRadius: "30px",

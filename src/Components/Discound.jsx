@@ -9,7 +9,7 @@ export default function Discound() {
       
       {/* Left Content */}
       <div className="col-lg-6">
-        <h2 className="fw-bold mb-3">
+        <h2 className="fw-bold mb-3 " style={{color:"blue"}}>
           Why Book Discount Business Class Flights With Our Travel Experts
         </h2>
         <p className="text-muted mb-4">

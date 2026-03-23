@@ -25,7 +25,7 @@ export default function FakeBlog() {
         travel surprisingly affordable.
       </p>
 
-      <h2 className="fw-bold mt-5 mb-3">
+      <h2 className="fw-bold mt-5 mb-3" >
         Why Business Class Travel Is Becoming More Accessible
       </h2>
 
