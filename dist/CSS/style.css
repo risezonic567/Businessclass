@@ -1,8 +1,8 @@
 .btn-color{
-  background: linear-gradient(#ff3c3c,#ff8c00);
+  background:blue;
 }
 .text-corol{
-  color: #ff3c3c;
+  color:white;
 }
 
 .about-section {
@@ -10,7 +10,7 @@
 }
 
 .about-card {
-  background: yellow;
+  background: white;
   border-radius: 17px;
   padding: 30px;
   height: 100%;
