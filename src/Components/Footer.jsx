@@ -147,7 +147,7 @@ export default function Footer() {
               <MapPin size={18} />
               <span>
                 17662 Irvine Blvd, Suite 9 <br />
-                Tustin, CA 92780
+                Tustin, CA 92780.
               </span>
             </div>
           </div>
