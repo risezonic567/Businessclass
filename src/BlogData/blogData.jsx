@@ -501,7 +501,7 @@ If you are looking forward to taking your flying experience to the next level, c
     <p class="">
      Many experienced travelers have been able to get cheap premium-class flights by keeping an eye out for such offers.
     </p>
-    <h2 class="h2 fw-bold mt-5 mb-3">Consider Alternative Airports</h2> 
+    <h2 class="h2 fw-bold mt-4 mb-3">Consider Alternative Airports</h2> 
 
     <p>
       While many travelers may be quick to look for flights from their nearest airport, it is worth considering alternative airports as they may sometimes be cheaper.
@@ -518,17 +518,17 @@ If you are looking forward to taking your flying experience to the next level, c
     While it may take a little longer, it is worth it as it may be a significant saving.
     </p>
    
-    <h2 class="h2 fw-bold mt-5 mb-3">Use Points and Airline Miles</h2>    
+    <h2 class="h2 fw-bold mt-4 mb-3">Use Points and Airline Miles</h2>    
      <p>
     One of the surefire ways to get cheap business class flights is through frequent flyer programs.
     This is especially true for those who earn rewards from credit cards or airline miles that allow them to redeem these miles for business class upgrades or tickets.
     This is particularly advantageous for those who are traveling long-haul routes because <span class="fw-semibold">business class flight</span> deals can be quite costly.
     </p>
-    <h2 class="h2 fw-bold mt-5 mb-3">Practical Comfort Tips for Business Class Travel</h2>  
+    <h2 class="h2 fw-bold mt-4 mb-3">Practical Comfort Tips for Business Class Travel</h2>  
     <p>
     After getting cheap business class flights, you will want to get the most out of your experience.
     </p>
-    <h2 class="h2 fw-bold mt-5 mb-3">Selecting Window Seats for More Privacy</h2>  
+    <h2 class="h2 fw-bold mt-4 mb-3">Selecting Window Seats for More Privacy</h2>  
     <p>
     Window seats are ideal for a lot of people, especially when it comes to business class travel.
     Many people take advantage of long flights as a quiet time for reading, working, and relaxing.Use Airport Lounges
