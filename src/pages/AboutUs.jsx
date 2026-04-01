@@ -129,7 +129,7 @@ export default function AboutUs() {
                 </p>
               </div>
             </div>
-
+            
             <div className="col-md-6">
               <div className="p-4 border rounded-4 shadow-sm h-100">
                 <h3 className="fw-semibold mb-3" style={{color:"blue"}}>Our Vision</h3>

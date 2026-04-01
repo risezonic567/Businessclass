@@ -561,7 +561,6 @@ If you are looking forward to taking your flying experience to the next level, c
       <li class="mb-2">• Common Mistakes to Avoid</li>
     </ul>
 
-
     <p>
     Even seasoned travelers may miss out on good deals.
     </p>

@@ -182,7 +182,7 @@ export default function Deals() {
           ))}
         </div>
 
-        {/* Bottom Info */}
+        {/* Bottom Info here*/}
         <div className="text-center mt-5">
           <p className="text-muted">
             Prices may vary based on airline & availability. Book early for the
