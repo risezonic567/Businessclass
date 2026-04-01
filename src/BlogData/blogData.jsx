@@ -6,14 +6,14 @@ export const blogPosts = [
     metadescription:
       "Discover how to find cheap business class flights from the USA in 2026. Learn the best time to book, smart strategies, and insider tips to save on premium travel.",
     canonical:
-      "https://www.airlinesticketbooking.com/blog/how-to-find-cheap-business-class-flights-from-the-USA-in-2026",
+      "https://www.business-classflights.com/blog/how-to-find-cheap-business-class-flights-from-the-USA-in-2026",
 
     title: "How to Find Cheap Business Class Flights from the USA in 2026",
     category: "Cheap Business Class Flights ",
     date: "2026-03-17",
     author: "Airlineticketbooking Team",
     authorAvatar:
-      "https://airlinesticketbooking.com/assets/Travel%20o%20sun%20logo%20png-0728f093.png",
+      "https://www.business-classflights.com/assets/Travel%20o%20sun%20logo%20png-0728f093.png",
 
     readingTime: "10 min read",
     views: 900,
@@ -182,14 +182,14 @@ export const blogPosts = [
     metadescription:
       "Discover the best business class airlines for international routes in 2026. Compare luxury seats, service & deals with Business Class Flights.",
     canonical:
-      "https://www.airlinesticketbooking.com/blog/best-business-class-airlines-2026-luxury-flights-guide",
+      "https://www.business-classflights.com/blog/best-business-class-airlines-2026-luxury-flights-guide",
 
     title: "Best Airlines for Business Class Flights on International Routes",
     category: "Best Business Class Flights ",
     date: "2026-03-26",
     author: "Airlineticketbooking Team",
     authorAvatar:
-      "https://airlinesticketbooking.com/assets/Travel%20o%20sun%20logo%20png-0728f093.png",
+      "https://www.business-classflights.com/assets/Travel%20o%20sun%20logo%20png-0728f093.png",
 
     readingTime: "10 min read",
     views: 1050,
@@ -400,14 +400,14 @@ If you are looking forward to taking your flying experience to the next level, c
     metadescription:
       "Learn how to find cheap business class flights without overpaying. Discover expert tips, booking strategies, and the best ways to save on premium travel.",
     canonical:
-      "https://www.airlinesticketbooking.com/blog/how-to-find-cheap-business-class-flights-without-overpaying",
+      "https://www.business-classflights.com/blog/how-to-find-cheap-business-class-flights-without-overpaying",
 
     title: "How to Find Cheap Business Class Flights Without Overpaying",
     category: "Best Business Class Flights ",
     date: "2026-03-26",
     author: "Airlineticketbooking Team",
     authorAvatar:
-      "https://airlinesticketbooking.com/assets/Travel%20o%20sun%20logo%20png-0728f093.png",
+      "https://www.business-classflights.com/assets/Travel%20o%20sun%20logo%20png-0728f093.png",
 
     readingTime: "10 min read",
     views: 1050,

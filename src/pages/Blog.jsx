@@ -3,7 +3,7 @@ import { Helmet } from "react-helmet";
 import { blogPosts } from "../BlogData/blogData";
 import { Bookmark } from "lucide-react";
 import { motion } from "framer-motion";
-import BlogCard from "../Components/blog/blogCard";
+import BlogCard from "../Components/blog/BlogCard";
 
 export default function Blog() {
   return (
