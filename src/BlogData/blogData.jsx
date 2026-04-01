@@ -415,9 +415,9 @@ If you are looking forward to taking your flying experience to the next level, c
     popularScore: 0,
 
     image:
-      "/blog3/One-Blog Image  How to Find Cheap Business Class Flights Without Overpaying-.jpg.jpeg",
+      "/images/blog3/One-Blog Image  How to Find Cheap Business Class Flights Without Overpaying-.jpg.jpeg",
     coverImage:
-      "/blog3/One-Blog Image  How to Find Cheap Business Class Flights Without Overpaying-.jpg.jpeg",
+      "/images/blog3/One-Blog Image  How to Find Cheap Business Class Flights Without Overpaying-.jpg.jpeg",
 
     tags: [
       "Cheap International Flight",
@@ -443,7 +443,7 @@ If you are looking forward to taking your flying experience to the next level, c
     </p>
     <h2 class=" fw-bold mt-5 mb-3">Why Business Class Is Worth It</h2>    
 
-    <img src="/blog3/Two-Blog-Image-Why-Business-Class-Is-Wort.jpeg" class="img-fluid rounded shadow mb-3 mt-3 w-full" /> 
+    <img src="/images/blog3/Two-Blog-Image-Why-Business-Class-Is-Wort.jpeg" class="img-fluid rounded shadow mb-3 mt-3 w-full" /> 
     <p>Before we get into how to book these flights, let's first explore why business class has become so popular, particularly among seasoned travelers.
     </p>
     <p>
@@ -488,7 +488,7 @@ If you are looking forward to taking your flying experience to the next level, c
     </p>
 
 
-    <img src="/blog3/Third-Blog Image  Smart Strategies to Find Cheap Business Class Flights.jpg.jpeg" class="img-fluid rounded shadow mb-3 mt-3 w-full" />
+    <img src="/images/blog3/Third-Blog Image  Smart Strategies to Find Cheap Business Class Flights.jpg.jpeg" class="img-fluid rounded shadow mb-3 mt-3 w-full" />
 
 
     <h2 class="h2 fw-bold mt-5 mb-3">Look for Airline Flash Sales</h2>    
@@ -534,7 +534,7 @@ If you are looking forward to taking your flying experience to the next level, c
     Many people take advantage of long flights as a quiet time for reading, working, and relaxing.Use Airport Lounges
     </p>
 
-    <img src="/blog3/Fifth-Blog Image  Practical Comfort Tips for Business Class Travel.jpg.jpeg" alt="blog3" class="img-fluid rounded shadow mb-3 mt-3 w-full" />
+    <img src="/images/blog3/Fifth-Blog Image  Practical Comfort Tips for Business Class Travel.jpg.jpeg" class="img-fluid rounded shadow mb-3 mt-3 w-full" />
 
     <h2 class="h2 fw-bold mt-5 mb-3">Business class flights usually give you access to airport lounges.</h2>    
     <p>
@@ -565,7 +565,7 @@ If you are looking forward to taking your flying experience to the next level, c
     <p>
     Even seasoned travelers may miss out on good deals.
     </p>
-    <img src="/blog3/Fourth-Blog Image  Business class flights usually give you access to airport lounges.jpg.jpeg" alt="blog3" />
+    <img src="/images/blog3/Fourth-Blog Image  Business class flights usually give you access to airport lounges.jpg.jpeg" alt="blog3" />
     <h2 class="h2 fw-bold mt-5">Common mistakes to avoid:</h2>
     <h3 class="h4 fw-semibold mt-3">Waiting too long</h3>
     <p>
