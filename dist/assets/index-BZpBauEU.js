@@ -430,7 +430,7 @@ Please change the parent <Route path="${U}"> to <Route path="${U==="/"?"*":`${U}
     </p>
 
     <p>
-    What are the best business class airlines in 2026? What makes them so special? How can you choose the best airline for your next international trip? Let's explore these questions in the sections below.
+    What are the best business class airlines in 2026? What makes them so special? How can you choose the best airline for your next international trip? Let's explore these questions in the sections below
     </p>
 
 
