@@ -19,7 +19,7 @@ export default function Discound() {
           you can fly business or first class at significantly lower prices.
         </p>
 
-        <button className="btn btn-color btn-lg text-white">
+        <button className="btn btn-primary  btn-lg text-white">
           Speak to a Travel Expert
         </button>
       </div>

@@ -31,17 +31,15 @@ export default function Navbar() {
       `}</style>
 
       <div className="container-fluid">
-        {/* LOGO */}
-        <Link className="navbar-brand d-flex align-items-center" to="/">
+        <Link className="navbar-brand " to="/">
           <img
             src="/photos/BUSINESS-CLASS-FLIGHTS-LOGO.png"
             alt="logo"
-            className="ms-5 "
+            className="ms-5 object-cover"
             width={95} height={70}
           />
         </Link>
 
-        {/* TOGGLER */}
         <button
           className="navbar-toggler"
           type="button"
@@ -82,7 +80,6 @@ export default function Navbar() {
             })}
           </ul>
 
-          {/* CALL BUTTON */}
           <div className="d-flex justify-content-center mt-3 mt-lg-0">
             <a
               href="tel:(866)307-5957"

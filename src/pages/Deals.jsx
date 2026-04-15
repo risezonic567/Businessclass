@@ -152,7 +152,7 @@ export default function Deals() {
                   <h5 className="text-success fw-bold">
                     Save up to ₹10,000
                   </h5>
-                  <button className="btn btn-color mt-3 px-4 text-light align-self-start">
+                  <button className="btn btn-primary mt-3 px-4 text-light align-self-start">
                     Book Now
                   </button>
                 </div>
@@ -173,7 +173,7 @@ export default function Deals() {
                   <span className="badge bg-light text-dark">
                     Code: {deal.code}
                   </span>
-                  <button className="btn btn-color btn-sm text-light">
+                  <button className="btn btn-primary btn-sm text-light">
                     Book
                   </button>
                 </div>

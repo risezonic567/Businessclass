@@ -103,7 +103,7 @@ export default function Support() {
           <div className="d-flex justify-content-center gap-4 flex-wrap mb-4">
             <a
               href="tel:(866)307-5957"
-              className="btn  d-flex align-items-center gap-2"
+              className="btn  text-white d-flex align-items-center gap-2"
               style={{ background: "blue" }}
             >
               <Phone size={18} /> (866)307-5957

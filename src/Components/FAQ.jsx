@@ -44,7 +44,7 @@ export default function FAQ() {
       </Helmet>
       <div className="bg-white">
       <div className="container" style={{ maxWidth: "900px" }}>
-        <h2 className="fw-bold mb-4 text-center" style={{ fontSize: "36px",color:"blue"}}>
+        <h2 className="fw-bold mt-5 mb-4 text-center" style={{ fontSize: "36px",color:"blue"}}>
           Business Class FAQs
         </h2>
 
