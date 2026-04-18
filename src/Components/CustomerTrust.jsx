@@ -75,7 +75,7 @@ export default function CustomerTrust() {
             </div>
             <div>
               <h4 className="fw-bold mb-0 text-corol">97%</h4>
-              <small className="text-muted">Positive Reviews</small>
+              <small className="text-muted">Positive Review</small>
             </div>
           </div>
            <a
