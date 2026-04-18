@@ -109,9 +109,9 @@ export default function Deals() {
             (item) => (
               <button
                 key={item}
-                className={`btn ${tab === item
+                className={`btn text-black ${tab === item
                     ? "btn-color text-light"
-                    : "btn-outline-btn-color"
+                    : "btn-outline-btn-color text-light"
                   }`}
                 onClick={() => setTab(item)}
               >

@@ -82,7 +82,7 @@ export default function Navbar() {
 
           <div className="d-flex justify-content-center mt-3 mt-lg-0">
             <a
-              href="tel:(866)307-5957"
+              href="tel:+18663075957"
               style={{
                 background: "blue",
                 color: "white",
@@ -96,7 +96,7 @@ export default function Navbar() {
               }}
             >
               <Phone size={18} />
-              (866)307-5957
+              +18663075957
             </a>
           </div>
         </div>

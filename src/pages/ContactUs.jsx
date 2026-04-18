@@ -69,7 +69,7 @@ export default function ContactUs() {
                 <li className="mb-2">✔ Fast response</li>
                 <li className="mb-2">✔ Secure & private</li>
                 <li className="mb-2">✔ Expert travel support</li>
-                <li className="mb-2">✔(866)307-5957</li>
+                <li className="mb-2">✔+18663075957</li>
               </ul>
             </div>
 

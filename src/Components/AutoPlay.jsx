@@ -111,7 +111,7 @@ export default function AutoPlay() {
           TRUSTED BY THOUSANDS
         </div>
         <h2 className="fw-bold display-6 text-dark my-2">
-          Luxury Travelers Love Us
+         Our Happy Client Say's That
         </h2>
         <p className="text-muted mx-auto" style={{ maxWidth: "700px" }}>
           We help business and first-class travelers book smarter, travel

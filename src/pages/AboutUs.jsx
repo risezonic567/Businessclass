@@ -179,7 +179,7 @@ export default function AboutUs() {
               </ul>
 
               <a
-                href="tel: (866)307-5957"
+                href="tel: +18663075957"
                 className="btn btn-light btn-lg rounded-pill px-4 fw-semibold btn-color"
               >
                 Book Your Business Class Today

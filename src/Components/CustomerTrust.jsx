@@ -56,7 +56,7 @@ export default function CustomerTrust() {
             transition: "all 0.9s ease-out",
           }}
         >
-          <h2 className="fw-bold mb-3" style={{color:"blue"}}>
+          <h2 className="fw-bold mb-3" style={{color:"black"}}>
             Business Class Travel Specialists Dedicated To You.
           </h2>
 
@@ -64,7 +64,7 @@ export default function CustomerTrust() {
             We are experts in discounted business and first-class fares from the US to all major international destinations. All of our travel advisors exclusively negotiate unpublished fares that save you 40% or more when flying in a premium cabin.
             </p>
 
-          <div className="d-flex gap-4 mt-4">
+          <div className="d-flex gap-4 my-4">
             <div>
               <h4 className="fw-bold mb-0 text-corol">188K+</h4>
               <small className="text-muted">Happy Travelers</small>
@@ -78,6 +78,18 @@ export default function CustomerTrust() {
               <small className="text-muted">Positive Reviews</small>
             </div>
           </div>
+           <a
+            href="tel:+18663075957"
+            className="btn mt-2"
+            style={{
+              background: "blue",
+              color: "white",
+              padding: "10px 22px",
+              borderRadius: "30px",
+            }}
+          >
+            Speak With Expert
+          </a>
         </div>
       </div>
 
@@ -121,7 +133,7 @@ export default function CustomerTrust() {
           </p>
 
           <a
-            href="tel:(866)307-5957"
+            href="tel:+18663075957"
             className="btn mt-2"
             style={{
               background: "blue",
