@@ -94,7 +94,7 @@ export default function CustomerTrust() {
       </div>
 
       {/* SECOND ROW */}
-      <div className="row align-items-center mt-2 g-3 flex-lg-row-reverse">
+      <div className="row align-items-center mt-5 g-3 flex-lg-row-reverse">
 
         {/* IMAGE */}
         <div
