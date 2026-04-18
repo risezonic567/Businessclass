@@ -64,7 +64,7 @@ export default function CustomerTrust() {
             We are experts in discounted business and first-class fares from the US to all major international destinations. All of our travel advisors exclusively negotiate unpublished fares that save you 40% or more when flying in a premium cabin.
             </p>
 
-          <div className="d-flex gap-4 my-4">
+          <div className="d-flex gap-4 my-2">
             <div>
               <h4 className="fw-bold mb-0 text-corol">188K+</h4>
               <small className="text-muted">Happy Travelers</small>
