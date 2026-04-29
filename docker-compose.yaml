@@ -1,12 +1,11 @@
-version : "3.9"
+version: "3.9"
 
 services:
   frontend:
     build:
       context: ./frontend
       dockerfile: Dockerfile
-    container_name:: business-class-frontend
+    container_name: business-class-frontend
     restart: always
     ports:
-      - "88:88"  
-  
+      - "88:88"
