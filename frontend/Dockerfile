@@ -12,7 +12,6 @@ COPY . .
 
 RUN npm run build
 
-
 # Step 2:
 
 FROM nginx:alpine
