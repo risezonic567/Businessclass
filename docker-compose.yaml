@@ -5,7 +5,7 @@ services:
     build:
       context: ./frontend
       dockerfile: Dockerfile
-    container-name: business-class-frontend
+    container_name:: business-class-frontend
     restart: always
     ports:
       - "88:88"  
