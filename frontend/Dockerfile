@@ -1,4 +1,4 @@
-# Step 1:
+
 
 FROM node:22.18.0 As builder
 
@@ -12,7 +12,7 @@ COPY . .
 
 RUN npm run build
 
-# Step 2:
+
 
 FROM nginx:alpine
 
