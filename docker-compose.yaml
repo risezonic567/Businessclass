@@ -8,4 +8,4 @@ services:
     container_name: business-class-frontend
     restart: always
     ports:
-      - "88:88"
+      - "8888:80"
