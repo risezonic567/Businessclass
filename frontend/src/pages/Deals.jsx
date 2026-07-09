@@ -12,21 +12,21 @@ export default function Deals() {
       title: "Flat 25% Off – International Flights",
       desc: "Save big on flights to USA, Europe & Middle East.",
       code: "INT25",
-      price: "Save up to ₹8,000",
+      price: "Save up to $8,000",
     },
     {
       type: "domestic",
       title: "Domestic Flight Offer",
-      desc: "Get lowest fares on all Indian airlines.",
+      desc: "Get lowest fares on all USA airlines.",
       code: "FLYINDIA",
-      price: "Save up to ₹1,500",
+      price: "Save up to $1,500",
     },
     {
       type: "student",
       title: "Student Special Fare",
       desc: "Exclusive fares for students travelling abroad.",
       code: "STUDENT",
-      price: "Save up to ₹4,000",
+      price: "Save up to $4,000",
     },
     {
       type: "lastminute",
@@ -150,7 +150,7 @@ export default function Deals() {
                     fares. Limited time only.
                   </p>
                   <h5 className="text-success fw-bold">
-                    Save up to ₹10,000
+                    Save up to $10,000
                   </h5>
                   <button className="btn btn-primary mt-3 px-4 text-light align-self-start">
                     Book Now
