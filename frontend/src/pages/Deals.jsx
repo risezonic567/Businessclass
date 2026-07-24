@@ -47,7 +47,7 @@ export default function Deals() {
         <meta name="description" content="Discover exclusive Business Class Flight Deals with major airlines. Save on international premium airfare with flexible options and personalized booking support." />
         <link rel="canonical" href="https://www.business-classflights.com/flights-deals" />
         <script type="application/ld+json">
-          {`{
+          x          {`{
 "@context":"https://schema.org",
 "@type":"Service",
 "name":"Business Class Flight Deals",
@@ -110,8 +110,8 @@ export default function Deals() {
               <button
                 key={item}
                 className={`btn text-black ${tab === item
-                    ? "btn-color text-light"
-                    : "btn-outline-btn-color text-light"
+                  ? "btn-color text-light"
+                  : "btn-outline-btn-color text-light"
                   }`}
                 onClick={() => setTab(item)}
               >
@@ -190,8 +190,6 @@ export default function Deals() {
           </p>
         </div>
       </div>
-
-
     </>
   );
 }

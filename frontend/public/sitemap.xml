@@ -70,4 +70,18 @@ http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <priority>0.8</priority>
 </url>
 
+<url>
+<loc>https://www.business-classflights.com/blog/last-minute-business-class-flight-deals-complete-guide</loc>
+<lastmod>2026-07-24T00:00:00+00:00</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.8</priority>
+</url>
+
+<url>
+<loc>https://www.business-classflights.com/blog/how-to-book-cheap-business-class-flights-everything-you-need-to-know-to-fly-in-style-for-less</loc>
+<lastmod>2026-07-24T00:00:00+00:00</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.8</priority>
+</url>
+
 </urlset>
