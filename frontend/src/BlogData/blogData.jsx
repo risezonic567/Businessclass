@@ -1830,7 +1830,6 @@ Popular examples are:
 Los Angeles naar Tokyo Singapore naar Sydney Dubai naar Bangkok Frankfurt naar<br/> 
 New York<br/>
 Toronto to Paris Delhi to Dubai Mumbai to Singapore London to Dubai Sydney to Auckland
-
   </p>
   <p>
   Competition between airlines often leads to attractive business class travel deals.
