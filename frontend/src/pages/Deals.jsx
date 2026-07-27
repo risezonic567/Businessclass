@@ -202,13 +202,13 @@ export default function Deals() {
   const [tab, setTab] = useState("all");
 
   const deals = [
-    // {
-    //   type: "international",
-    //   title: "Flat 25% Off – International Flights",
-    //   desc: "Save big on flights to USA, Europe & Middle East.",
-    //   code: "INT25",
-    //   price: "Save up to $8,000",
-    // },
+    {
+      type: "international",
+      title: "Flat 25% Off – International Flights",
+      desc: "Save big on flights to USA, Europe & Middle East.",
+      code: "INT25",
+      price: "Save up to $8,000",
+    },
     {
       type: "domestic",
       title: "Domestic Flight Offer",
