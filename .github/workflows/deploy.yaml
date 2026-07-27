@@ -15,9 +15,9 @@ jobs:
         with:
           host: ${{ secrets.SSH_HOST }}
           username: root
-          key: ${{ secrets.SSH_KEY }}
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
           script: |
-            cd /var/www/businessClass
+            cd /var/www/Businessclass
             
             git pull origin main
 
