@@ -65,7 +65,7 @@ export default function PolularDestination() {
             {businessClassDestinations.map((item, index) => (
               <div className="col-12 col-md-6 col-lg-4" key={index}>
                 <div className="card h-100 border-0 shadow-sm destination-card">
-                  {/* Image wrapper */}
+                 
                   <div className="image-wrapper">
                     <img
                       src={item.image}
@@ -73,6 +73,7 @@ export default function PolularDestination() {
                       className="destination-img"
                     />
                   </div>
+                  
 
                   <div className="card-body d-flex flex-column">
                     <h5 className="fw-semibold mb-2">✈ {item.title}</h5>

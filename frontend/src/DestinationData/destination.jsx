@@ -1,0 +1,88 @@
+export const DESTINATIONS_DATA = {
+  london: {
+    name: "London",
+    code: "LHR",
+    country: "United Kingdom",
+    price: 2850,
+    tag: "Popular",
+    image: "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad",
+    description: "Experience royal luxury, world-class dining, and historic landmarks in London.",
+  },
+  dubai: {
+    name: "Dubai",
+    code: "DXB",
+    country: "UAE",
+    price: 2400,
+    tag: "Luxury Choice",
+    image: "https://images.unsplash.com/photo-1512453979798-5ea266f8880c",
+    description: "Fly in ultimate comfort to the land of skyscrapers, luxury shopping, and desert safaris.",
+  },
+   paris: {
+    name: "Paris",
+    code: "DXB",
+    country: "UAE",
+    price: 2400,
+    tag: "Luxury Choice",
+    image: "https://images.unsplash.com/photo-1512453979798-5ea266f8880c",
+    description: `
+    <p>
+    
+    </p>
+    `,
+  },
+   newyork: {
+    name: "New York",
+    code: "DXB",
+    country: "UAE",
+    price: 2400,
+    tag: "Luxury Choice",
+    image: "https://images.unsplash.com/photo-1512453979798-5ea266f8880c",
+    description: "Fly in ultimate comfort to the land of skyscrapers, luxury shopping, and desert safaris.",
+  },
+   losangeles: {
+    name: "Los Angeles",
+    code: "DXB",
+    country: "UAE",
+    price: 2400,
+    tag: "Luxury Choice",
+    image: "https://images.unsplash.com/photo-1512453979798-5ea266f8880c",
+    description: "Fly in ultimate comfort to the land of skyscrapers, luxury shopping, and desert safaris.",
+  },
+   sanfrancisco: {
+    name: "San Francisco",
+    code: "DXB",
+    country: "UAE",
+    price: 2400,
+    tag: "Luxury Choice",
+    image: "https://images.unsplash.com/photo-1512453979798-5ea266f8880c",
+    description: "Fly in ultimate comfort to the land of skyscrapers, luxury shopping, and desert safaris.",
+  },
+   chicago: {
+    name: "Chicago",
+    code: "DXB",
+    country: "UAE",
+    price: 2400,
+    tag: "Luxury Choice",
+    image: "https://images.unsplash.com/photo-1512453979798-5ea266f8880c",
+    description: "Fly in ultimate comfort to the land of skyscrapers, luxury shopping, and desert safaris.",
+  },
+   miami: {
+    name: "Miami",
+    code: "DXB",
+    country: "UAE",
+    price: 2400,
+    tag: "Luxury Choice",
+    image: "https://images.unsplash.com/photo-1512453979798-5ea266f8880c",
+    description: "Fly in ultimate comfort to the land of skyscrapers, luxury shopping, and desert safaris.",
+  },
+   lasvegas: {
+    name: "Las Vegas",
+    code: "DXB",
+    country: "UAE",
+    price: 2400,
+    tag: "Luxury Choice",
+    image: "https://images.unsplash.com/photo-1512453979798-5ea266f8880c",
+    description: "Fly in ultimate comfort to the land of skyscrapers, luxury shopping, and desert safaris.",
+  },
+  
+};

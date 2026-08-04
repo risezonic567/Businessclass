@@ -7,6 +7,7 @@ import FAQ from "../Components/FAQ";
 import PolularDestination from "../Components/PolularDestination";
 import Discound from "../Components/Discound";
 import { Helmet } from "react-helmet";
+import Destinations from "./DestinationPage";
 
 const faqs = [
   {
@@ -164,7 +165,8 @@ export default function Home() {
       <CustomerTrust />
 
       <Discound />
-      <PolularDestination />
+      {/* <PolularDestination /> */}
+      <Destinations/>
       <div className="bg-blue">
         <div className="container" style={{ maxWidth: "900px" }}>
           <h3 className="fw-bold mb-4 text-center" style={{ fontSize: "36px",color:"blue" }}>

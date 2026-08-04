@@ -14,7 +14,8 @@ import NotFound from "../pages/NotFound";
 import Blog from "../pages/Blog";
 import ContactUs from "../pages/ContactUs";
 import SingleBlog from "../pages/SingleBlog";
-// import FakeBlog from "../pages/FakeBlog";
+import Destinations from "../pages/DestinationPage";
+import DestinationDetail from "./DestinationDetails";
 
 export default function PathRouter() {
   return (
@@ -24,15 +25,18 @@ export default function PathRouter() {
         <Route path="/flight-deals" element={<Deals />} />
         <Route path="/support" element={<Support />} />
         <Route path="/flight-status" element={<MyTrip />} />
-        <Route path="/contact-us" element={<ContactUs />}/>
-        <Route path="/about-us" element={<AboutUs />}/>
-        <Route path="/contact-us" element={<ContactUs />}/>
-        <Route path="/faq" element={<FAQ />}/>
-        <Route path="/privacy-policy" element={<PrivacyPolicy />}/>
-        <Route path="/term-condition" element={<TermsCondition/>} />
+        <Route path="/contact-us" element={<ContactUs />} />
+        <Route path="/about-us" element={<AboutUs />} />
+        <Route path="/contact-us" element={<ContactUs />} />
+        <Route path="/faq" element={<FAQ />} />
+        <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+        <Route path="/term-condition" element={<TermsCondition />} />
         <Route path="/blog" element={<Blog />} />
-        <Route path="/blog/:slug" element={<SingleBlog/>}/>
+        <Route path="/blog/:slug" element={<SingleBlog />} />
+        <Route path="destination" element={<Destinations />} />
+        <Route path="/destination/:slug" element={<DestinationDetail />} />
         <Route path="*" element={<NotFound />} />
+
 
       </Routes>
     </div>
