@@ -175,6 +175,7 @@ export const blogPosts = [
 
 `,
   },
+
   {
     id: 2,
     slug: "best-business-class-airlines-2026-luxury-flights-guide",
@@ -393,6 +394,7 @@ If you are looking forward to taking your flying experience to the next level, c
     
 `,
   },
+
   {
     id: 3,
     slug: "how-to-find-cheap-business-class-flights-without-overpaying",
@@ -597,6 +599,7 @@ Your next luxury flight may be more affordable than you ever imagined.
     
 `,
   },
+
   {
     id: 4,
     slug: "cheap-business-class-flights-USA-to-europe-how-to-find-the-best-deals",
@@ -746,6 +749,7 @@ Your next luxury flight may be more affordable than you ever imagined.
     
 `,
   },
+
   {
     id: 5,
     slug: "when-is-the-best-time-to-book-business-class-flights-from-USA",
@@ -886,6 +890,7 @@ Your next luxury flight may be more affordable than you ever imagined.
     
 `,
   },
+
   {
     id: 6,
     slug: "top-international-destinations-for-business-class-travel",
@@ -1178,6 +1183,7 @@ Your next luxury flight may be more affordable than you ever imagined.
     <p>Consider trying out <a href="https://www.business-classflights.com/">Business-ClassFlights</a> for a more efficient experience.</p>
 `,
   },
+
   {
     id: 8,
     slug: "how-to-find-cheap-business-class-flights",
@@ -1266,6 +1272,7 @@ Your next luxury flight may be more affordable than you ever imagined.
     <p>Plan your next journey today and book a flight that directly takes you to your favourite destination with full comfort and exceptional value hand in hand.</p>
 `,
   },
+
   {
     id: 9,
     slug: "best-days-to-buy-plane-tickets",
@@ -1431,6 +1438,7 @@ Your next luxury flight may be more affordable than you ever imagined.
     <p>You don’t have to use complicated strategies to figure out the best days to buy aeroplane tickets in 2026. To be successful, book early, be flexible, look at prices and choose low-demand travel days. Usually the best day to buy airline tickets is mid-week and the cheapest days to fly are Tuesday, Wednesday and Saturday. Combine that with the best time to buy airline tickets, follow practical flight booking tips, and keep an eye on when flight prices drop to save the most.</p>
 `,
   },
+
   {
     id: 10,
     slug: "last-minute-business-class-flight-deals-complete-guide",
@@ -1637,6 +1645,7 @@ If you need cheap business class flights, affordable business class tickets ,las
 
 `,
   },
+  
   {
     id: 11,
     slug: "how-to-book-cheap-business-class-flights-everything-you-need-to-know-to-fly-in-style-for-less",

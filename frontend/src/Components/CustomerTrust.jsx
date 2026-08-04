@@ -27,11 +27,8 @@ export default function CustomerTrust() {
       ref={sectionRef}
       className="container py-5 overflow-hidden"
     >
-
-      {/* FIRST ROW */}
       <div className="row align-items-center g-5">
 
-        {/* LEFT IMAGE */}
         <div
           className="col-lg-6"
           style={{
@@ -47,7 +44,7 @@ export default function CustomerTrust() {
           />
         </div>
 
-        {/* RIGHT CONTENT */}
+       
         <div
           className="col-lg-6"
           style={{
@@ -57,7 +54,7 @@ export default function CustomerTrust() {
           }}
         >
           <h2 className="fw-bold mb-3" style={{color:"black"}}>
-            Business Class Travel Specialists Dedicated To You.
+            Business Class Travel Specialists Dedicated To You
           </h2>
 
           <p className="text-muted">
@@ -66,18 +63,19 @@ export default function CustomerTrust() {
 
           <div className="d-flex gap-4 my-2">
             <div>
-              <h4 className="fw-bold mb-0 text-corol">188K+</h4>
+              <h4 className="fw-bold mb-0" style={{color:"blue"}}>188K+</h4>
               <small className="text-muted">Happy Travelers</small>
             </div>
             <div>
-              <h4 className="fw-bold mb-0 text-corol">24/7</h4>
+              <h4 className="fw-bold mb-0" style={{color:"blue"}}>24/7</h4>
               <small className="text-muted">Live Support</small>
             </div>
             <div>
-              <h4 className="fw-bold mb-0 text-corol">97%</h4>
+              <h4 className="fw-bold mb-0" style={{color:"blue"}}>97%</h4>
               <small className="text-muted">Positive Review</small>
             </div>
           </div>
+
            <a
             href="tel:+18663075957"
             className="btn mt-2"
@@ -93,10 +91,10 @@ export default function CustomerTrust() {
         </div>
       </div>
 
-      {/* SECOND ROW */}
+     
       <div className="row align-items-center mt-5 g-3 flex-lg-row-reverse">
 
-        {/* IMAGE */}
+     
         <div
           className="col-lg-6 text-center"
           style={{
@@ -115,7 +113,6 @@ export default function CustomerTrust() {
           </div>
         </div>
 
-        {/* TEXT */}
         <div
           className="col-lg-6"
           style={{

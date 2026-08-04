@@ -3,7 +3,6 @@ import Banner from "../Components/Banner";
 import CustomerTrust from "../Components/CustomerTrust";
 import AutoPlay from "../Components/AutoPlay";
 import FAQ from "../Components/FAQ";
-// import ContactUs from "../Components/ContactUs";
 import PolularDestination from "../Components/PolularDestination";
 import Discound from "../Components/Discound";
 import { Helmet } from "react-helmet";
@@ -41,7 +40,7 @@ const faqs = [
 ];
 
 export default function Home() {
-  const [open, setOpen] = useState(null);
+  const [open, setOpen] = useState(null)
   return (
     <>
       <Helmet>
@@ -166,10 +165,10 @@ export default function Home() {
 
       <Discound />
       {/* <PolularDestination /> */}
-      <Destinations/>
+      <Destinations />
       <div className="bg-blue">
         <div className="container" style={{ maxWidth: "900px" }}>
-          <h3 className="fw-bold mb-4 text-center" style={{ fontSize: "36px",color:"blue" }}>
+          <h3 className="fw-bold mb-4 text-center" style={{ fontSize: "36px", color: "blue" }}>
             Business Class FAQs
           </h3>
 

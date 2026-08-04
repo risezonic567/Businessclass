@@ -1,15 +1,13 @@
-// src/pages/DestinationDetail.jsx
-import React, { useState } from 'react';
-import { useParams, Link } from 'react-router-dom' ; 
-import { DESTINATIONS_DATA } from "../DestinationData/destination";
-import { Plane, MapPin, CheckCircle } from 'lucide-react';
+import React, { useState } from 'react'
+import { useParams, Link } from 'react-router-dom'  
+import { DESTINATIONS_DATA } from "../DestinationData/destination"
+import { Plane, MapPin, CheckCircle } from 'lucide-react'
 
 export default function DestinationDetail() {
-  // URL se id milegi (e.g. /destination/london -> slug = 'london')
-  const { slug } = useParams(); 
-  const destination = DESTINATIONS_DATA[slug];
+  const { slug } = useParams() 
+  const destination = DESTINATIONS_DATA[slug]
 
-  const [passengers, setPassengers] = useState(1);
+  const [passengers, setPassengers] = useState(1)
 
   if (!destination) {
     return (
@@ -17,7 +15,7 @@ export default function DestinationDetail() {
         <h2>Destination Not Found!</h2>
         <Link to="/destination" className="btn btn-warning mt-3">View All Destinations</Link>
       </div>
-    );
+    )
   }
 
   return (
@@ -57,5 +55,5 @@ export default function DestinationDetail() {
         </div>
       </div>
     </div>
-  );
+  )
 }

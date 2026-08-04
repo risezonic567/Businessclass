@@ -5,7 +5,6 @@ import Home from "../pages/Home";
 import Support from "../pages/Support";
 import MyTrip from "../pages/MyTrip";
 import Deals from "../pages/Deals";
-// import ContactUs from "./ContactUs";
 import PrivacyPolicy from '../pages/ProvicyPolicy'
 import FAQ from "./FAQ";
 import AboutUs from "../pages/AboutUs";
@@ -36,8 +35,6 @@ export default function PathRouter() {
         <Route path="destination" element={<Destinations />} />
         <Route path="/flight-to/:slug" element={<DestinationDetail />} />
         <Route path="*" element={<NotFound />} />
-
-
       </Routes>
     </div>
   );

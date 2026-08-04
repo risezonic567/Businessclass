@@ -1,94 +1,100 @@
 export const DESTINATIONS_DATA = {
   london: {
+    id:"london",
     name: "London",
     code: "LHR",
     country: "United Kingdom",
     price: 2850,
     tag: "Popular",
-    image: "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad",
+    image: "/photos/London.jpg.jpeg",
     description: `
-    <p>
-    "Experience royal luxury, world-class dining, and historic landmarks in London."
-    </p>
-
-    <h2 class="text-2xl font-bold mt-4 mb-2">Top <a href="jdv" class="text-blue-600">Attractions</a> in London</h2>
-    
+  
     `,
   },
+
   dubai: {
+    id:"dubai",
     name: "Dubai",
     code: "DXB",
     country: "UAE",
     price: 2400,
     tag: "Luxury Choice",
-    image: "https://images.unsplash.com/photo-1512453979798-5ea266f8880c",
+    image: "/photos/dubai.jpg.jpeg",
     description: ``,
   },
    paris: {
+    id:"paris",
     name: "Paris",
     code: "DXB",
     country: "UAE",
     price: 2400,
     tag: "Luxury Choice",
-    image: "https://images.unsplash.com/photo-1512453979798-5ea266f8880c",
+    image: "/photos/paris.jpg.jpeg",
     description: `
     <p>
-    
+
     </p>
     `,
   },
    newyork: {
+    id:"newyork",
     name: "New York",
     code: "DXB",
     country: "UAE",
     price: 2400,
     tag: "Luxury Choice",
-    image: "https://images.unsplash.com/photo-1512453979798-5ea266f8880c",
+    image: "/photos/New-york.jpg.jpeg",
     description: ``,
   },
+
    losangeles: {
+    id:"losangeles",
     name: "Los Angeles",
     code: "DXB",
     country: "UAE",
     price: 2400,
     tag: "Luxury Choice",
-    image: "https://images.unsplash.com/photo-1512453979798-5ea266f8880c",
+    image: "",
     description: ``,
   },
    sanfrancisco: {
+    id:"sanfrancisco",
     name: "San Francisco",
     code: "DXB",
     country: "UAE",
     price: 2400,
     tag: "Luxury Choice",
-    image: "https://images.unsplash.com/photo-1512453979798-5ea266f8880c",
+    image: "",
     description: ``,
   },
    chicago: {
+    id:"chicago",
     name: "Chicago",
     code: "DXB",
     country: "UAE",
     price: 2400,
     tag: "Luxury Choice",
-    image: "https://images.unsplash.com/photo-1512453979798-5ea266f8880c",
+    image: "",
     description: ``,
   },
    miami: {
+    id:"miami",
     name: "Miami",
     code: "DXB",
     country: "UAE",
     price: 2400,
     tag: "Luxury Choice",
-    image: "https://images.unsplash.com/photo-1512453979798-5ea266f8880c",
+    image: "",
     description: ``,
   },
    lasvegas: {
+    id:"lasvegas",
     name: "Las Vegas",
     code: "DXB",
     country: "UAE",
     price: 2400,
     tag: "Luxury Choice",
-    image: "https://images.unsplash.com/photo-1512453979798-5ea266f8880c",
+    image: "",
     description: ``,
   },
   
