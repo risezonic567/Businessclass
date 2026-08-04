@@ -40,7 +40,10 @@ export default function DestinationDetail() {
             <p className="text-secondary fs-5">
               <MapPin size={18} className="me-1" /> {destination.country}
             </p>
-            <p className="mt-3">{destination.description}</p>
+            <div className="mt-3">
+              <h5 className="fw-bold">Description</h5>
+              <div dangerouslySetInnerHTML={{ __html: destination.description }} />
+            </div>
 
             <div className="p-4 rounded-3 bg-secondary bg-opacity-10 border border-secondary border-opacity-25 mt-4">
               <span className="text-secondary small d-block">Starting Fare per seat</span>

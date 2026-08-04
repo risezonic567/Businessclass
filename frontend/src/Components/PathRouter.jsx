@@ -34,7 +34,7 @@ export default function PathRouter() {
         <Route path="/blog" element={<Blog />} />
         <Route path="/blog/:slug" element={<SingleBlog />} />
         <Route path="destination" element={<Destinations />} />
-        <Route path="/destination/:slug" element={<DestinationDetail />} />
+        <Route path="/flight-to/:slug" element={<DestinationDetail />} />
         <Route path="*" element={<NotFound />} />
 
 

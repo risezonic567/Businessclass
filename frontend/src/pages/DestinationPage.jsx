@@ -28,7 +28,7 @@ export default function Destinations() {
 
  
   const handleDestinationClick = (dest) => {
-    navigate(`/destination/${dest.id}`);
+    navigate(`/flight-to/${dest.id}`);
   };
 
   return (

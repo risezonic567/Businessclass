@@ -6,7 +6,14 @@ export const DESTINATIONS_DATA = {
     price: 2850,
     tag: "Popular",
     image: "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad",
-    description: "Experience royal luxury, world-class dining, and historic landmarks in London.",
+    description: `
+    <p>
+    "Experience royal luxury, world-class dining, and historic landmarks in London."
+    </p>
+
+    <h2 class="text-2xl font-bold mt-4 mb-2">Top <a href="jdv" class="text-blue-600">Attractions</a> in London</h2>
+    
+    `,
   },
   dubai: {
     name: "Dubai",
@@ -15,7 +22,7 @@ export const DESTINATIONS_DATA = {
     price: 2400,
     tag: "Luxury Choice",
     image: "https://images.unsplash.com/photo-1512453979798-5ea266f8880c",
-    description: "Fly in ultimate comfort to the land of skyscrapers, luxury shopping, and desert safaris.",
+    description: ``,
   },
    paris: {
     name: "Paris",
@@ -37,7 +44,7 @@ export const DESTINATIONS_DATA = {
     price: 2400,
     tag: "Luxury Choice",
     image: "https://images.unsplash.com/photo-1512453979798-5ea266f8880c",
-    description: "Fly in ultimate comfort to the land of skyscrapers, luxury shopping, and desert safaris.",
+    description: ``,
   },
    losangeles: {
     name: "Los Angeles",
@@ -46,7 +53,7 @@ export const DESTINATIONS_DATA = {
     price: 2400,
     tag: "Luxury Choice",
     image: "https://images.unsplash.com/photo-1512453979798-5ea266f8880c",
-    description: "Fly in ultimate comfort to the land of skyscrapers, luxury shopping, and desert safaris.",
+    description: ``,
   },
    sanfrancisco: {
     name: "San Francisco",
@@ -55,7 +62,7 @@ export const DESTINATIONS_DATA = {
     price: 2400,
     tag: "Luxury Choice",
     image: "https://images.unsplash.com/photo-1512453979798-5ea266f8880c",
-    description: "Fly in ultimate comfort to the land of skyscrapers, luxury shopping, and desert safaris.",
+    description: ``,
   },
    chicago: {
     name: "Chicago",
@@ -64,7 +71,7 @@ export const DESTINATIONS_DATA = {
     price: 2400,
     tag: "Luxury Choice",
     image: "https://images.unsplash.com/photo-1512453979798-5ea266f8880c",
-    description: "Fly in ultimate comfort to the land of skyscrapers, luxury shopping, and desert safaris.",
+    description: ``,
   },
    miami: {
     name: "Miami",
@@ -73,7 +80,7 @@ export const DESTINATIONS_DATA = {
     price: 2400,
     tag: "Luxury Choice",
     image: "https://images.unsplash.com/photo-1512453979798-5ea266f8880c",
-    description: "Fly in ultimate comfort to the land of skyscrapers, luxury shopping, and desert safaris.",
+    description: ``,
   },
    lasvegas: {
     name: "Las Vegas",
@@ -82,7 +89,7 @@ export const DESTINATIONS_DATA = {
     price: 2400,
     tag: "Luxury Choice",
     image: "https://images.unsplash.com/photo-1512453979798-5ea266f8880c",
-    description: "Fly in ultimate comfort to the land of skyscrapers, luxury shopping, and desert safaris.",
+    description: ``,
   },
   
 };
