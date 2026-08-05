@@ -54,7 +54,7 @@ export const DESTINATIONS_DATA = {
     country: "UAE",
     price: 2400,
     tag: "Luxury Choice",
-    image: "",
+    image: "/photos/losangles.png",
     description: ``,
   },
    sanfrancisco: {
@@ -64,7 +64,7 @@ export const DESTINATIONS_DATA = {
     country: "UAE",
     price: 2400,
     tag: "Luxury Choice",
-    image: "",
+    image: "/photos/San Francisco.png",
     description: ``,
   },
    chicago: {
@@ -74,7 +74,7 @@ export const DESTINATIONS_DATA = {
     country: "UAE",
     price: 2400,
     tag: "Luxury Choice",
-    image: "",
+    image: "/photos/Chicago.png",
     description: ``,
   },
    miami: {
@@ -84,7 +84,7 @@ export const DESTINATIONS_DATA = {
     country: "UAE",
     price: 2400,
     tag: "Luxury Choice",
-    image: "",
+    image: "/photos/Miami.png",
     description: ``,
   },
    lasvegas: {
@@ -94,7 +94,7 @@ export const DESTINATIONS_DATA = {
     country: "UAE",
     price: 2400,
     tag: "Luxury Choice",
-    image: "",
+    image: "/photos/Las Vegas.png",
     description: ``,
   },
   
