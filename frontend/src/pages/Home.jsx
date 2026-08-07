@@ -169,7 +169,7 @@ export default function Home() {
       <div className="bg-blue">
         <div className="container" style={{ maxWidth: "900px" }}>
           <h3 className="fw-bold mb-4 text-center" style={{ fontSize: "36px", color: "blue" }}>
-            Business Class FAQs
+            Business Class Faqs
           </h3>
 
           {faqs.map((item, i) => (
