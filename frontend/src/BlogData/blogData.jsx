@@ -2088,7 +2088,7 @@ Final thoughts
 The knowledge on the best times to book your domestic flights and the best times to book your international flights will assist you in traveling smarter and minimize your travel costs at the same time. Finding cheap business class tickets, unique business class deals, discounts in business class flights, or premium international business class flights will be made easy if you plan ahead.
 
 </p>
-<p>
+<p class="mb-2">
 With proper timing, flexibility in travel dates, and monitoring of fares, it will be possible for you to secure unique business class deals and have affordable business class flights that are not costly at all.
 
 </p>
