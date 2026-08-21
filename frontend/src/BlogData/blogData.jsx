@@ -2268,7 +2268,7 @@ Upgrades opportunity<br/>
 Airlines' service quality<br/> 
     </p>
 
-    <img src="/blogimg/Luxury Business Class Experience.jpg.jpeg" alt="" class="mt-5 mb-5"/>
+    <img src="/blogimg/Luxury Business Class Experience.jpg.jpeg" alt="" class="mt-5 mb-5 w-full"/>
 
     <h2>
     How to Find Cheap International Business Class Tickets The Best Ways
