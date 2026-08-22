@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { useParams, Link } from 'react-router-dom'  
 import { DESTINATIONS_DATA } from "../DestinationData/destination"
 import { Plane, MapPin, CheckCircle } from 'lucide-react'
+import { Helmet } from 'react-helmet'
 
 export default function DestinationDetail() {
   const { slug } = useParams() 
@@ -19,6 +20,12 @@ export default function DestinationDetail() {
   }
 
   return (
+    <>
+    <Helmet>
+
+      <link rel="canonical" href={destination.canonical} />
+      
+    </Helmet>
     <div className="bg-dark text-white min-vh-100 py-5">
       <div className="container">
         <div className="row align-items-center g-5">
@@ -55,5 +62,6 @@ export default function DestinationDetail() {
         </div>
       </div>
     </div>
+    </>
   )
 }
