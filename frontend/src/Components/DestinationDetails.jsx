@@ -47,14 +47,14 @@ export default function DestinationDetail() {
             </p>
             
 
-            <div className="p-4 rounded-3 bg-secondary bg-opacity-10 border border-secondary border-opacity-25 mt-4">
-              <span className="text-secondary small d-block">Starting Fare per seat</span>
-              <div className="display-6 fw-bold text-warning">${destination.price}</div>
+            {/* <div className="p-4 rounded-3 bg-secondary bg-opacity-10 border border-secondary border-opacity-25 mt-4"> */}
+              {/* <span className="text-secondary small d-block">Starting Fare per seat</span>
+              <div className="display-6 fw-bold text-warning">${destination.price}</div> */}
 
-              <button className="btn btn-warning w-100 mt-4 py-3 font-weight-bold d-flex align-items-center justify-content-center gap-2">
+              {/* <button className="btn btn-warning w-100 mt-4 py-3 font-weight-bold d-flex align-items-center justify-content-center gap-2">
                 <Plane size={20} /> Search Business Class Fares to {destination.name}
-              </button>
-            </div>
+              </button> */}
+            {/* </div> */}
           </div>
           <div className="mt-3">
               <h5 className="fw-bold">Description</h5>
