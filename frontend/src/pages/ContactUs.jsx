@@ -15,7 +15,7 @@ export default function ContactUs() {
   const handleSubmit = (e) => {
     e.preventDefault();
     alert("Message submitted successfully!");
-    // here later you can connect API (email / CRM / backend)
+
   };
 
   return (
@@ -45,7 +45,7 @@ export default function ContactUs() {
 "availableLanguage":"English"
 }
 }`
-          }
+}
         </script>
 
 
@@ -53,7 +53,7 @@ export default function ContactUs() {
       <div className="bg-light py-5" style={{ marginTop: "80px" }}>
         <div className="container">
           <div className="row align-items-center g-5">
-            {/* Left content */}
+
             <div className="col-lg-5">
               <h1 className="text-uppercase text-muted">Contact Us</h1>
               <h2 className="fw-bold mb-3 text-primary">
@@ -73,7 +73,6 @@ export default function ContactUs() {
               </ul>
             </div>
 
-            {/* Form */}
             <div className="col-lg-7">
               <div className="bg-white p-4 p-md-5 shadow rounded-4">
                 <form onSubmit={handleSubmit}>
