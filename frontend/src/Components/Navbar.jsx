@@ -36,7 +36,7 @@ export default function Navbar() {
             src="/photos/BUSINESS-CLASS-FLIGHTS-LOGO.png"
             alt="logo"
             className="ms-5 object-cover"
-            width={95} height={70}
+            width={65} height={70}
           />
         </Link>
 
