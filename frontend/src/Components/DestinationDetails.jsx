@@ -41,14 +41,11 @@ export default function DestinationDetail() {
             <span className="badge bg-warning text-dark mb-2 px-3 py-2 fs-6">
               {destination.tag}
             </span>
-            <h1 className="display-4 fw-bold">{destination.name} ({destination.code})</h1>
+            <h1 className="display-4 fw-bold">{destination.name} </h1>
             <p className="text-secondary fs-5">
               <MapPin size={18} className="me-1" /> {destination.country}
             </p>
-            <div className="mt-3">
-              <h5 className="fw-bold">Description</h5>
-              <div dangerouslySetInnerHTML={{ __html: destination.description }} />
-            </div>
+            
 
             <div className="p-4 rounded-3 bg-secondary bg-opacity-10 border border-secondary border-opacity-25 mt-4">
               <span className="text-secondary small d-block">Starting Fare per seat</span>
@@ -59,6 +56,10 @@ export default function DestinationDetail() {
               </button>
             </div>
           </div>
+          <div className="mt-3">
+              <h5 className="fw-bold">Description</h5>
+              <div dangerouslySetInnerHTML={{ __html: destination.description }} />
+            </div>
         </div>
       </div>
     </div>
