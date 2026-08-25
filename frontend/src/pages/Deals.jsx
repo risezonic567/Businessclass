@@ -77,11 +77,12 @@ export default function Deals() {
   return (
     <>
       <Helmet>
-        <title>Business Class Flight Deals | Save on Premium Airfare</title>
+        <title>Business Class Flight Deals & Affordable Airfare</title>
 
         <meta
           name="description"
-          content="Discover exclusive Business Class Flight Deals with major airlines. Save on international premium airfare with flexible options and personalized booking support."
+          content="Explore business class flight deals and affordable airfare for domestic and international routes. Compare airlines, fares, schedules, and travel dates.  
+put on flight deal page"
         />
 
         <link
