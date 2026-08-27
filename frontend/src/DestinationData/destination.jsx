@@ -217,7 +217,7 @@ travel requirements.
 
    newyork: {
     id:"newyork",
-    name: "Business Class Flights to Paris",
+    name: "Business Class Flights to New York",
     canonical:"https://www.business-classflights.com/flight-to/newyork",
     code: "",
     country: "",
@@ -330,11 +330,13 @@ Planning transportation before departure can make the arrival process easier. Ne
     </p>
     <h2>Tips for Finding Better Business Class Deals in New York</h2>
     <p>A few simple strategies can help travelers compare business class deals more effectively:</p>
-    
+
 
 
     `,
   },
+
+
 
    losangeles: {
     id:"losangeles",
@@ -348,6 +350,8 @@ Planning transportation before departure can make the arrival process easier. Ne
     description: ``,
   },
 
+
+
    sanfrancisco: {
     id:"sanfrancisco",
     name: "San Francisco",
@@ -360,6 +364,7 @@ Planning transportation before departure can make the arrival process easier. Ne
     description: ``,
   },
 
+
    chicago: {
     id:"chicago",
     name: "Chicago",
@@ -371,6 +376,9 @@ Planning transportation before departure can make the arrival process easier. Ne
     image: "/photos/Chicago.png",
     description: ``,
   },
+
+
+
    miami: {
     id:"miami",
     name: "Miami",
@@ -382,6 +390,9 @@ Planning transportation before departure can make the arrival process easier. Ne
     image: "/photos/Miami.png",
     description: ``,
   },
+
+  
+
    lasvegas: {
     id:"lasvegas",
     name: "Las Vegas",
