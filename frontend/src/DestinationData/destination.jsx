@@ -1,11 +1,11 @@
 export const DESTINATIONS_DATA = {
 
   london: {
-    id:"london",
+    id: "london",
     name: "Business Class Flights to London",
-    canonical:"https://www.business-classflights.com/flight-to/london",
+    canonical: "https://www.business-classflights.com/flight-to/london",
     code: "",
-    country: "United Kingdom",
+    country: "",
     price: 0,
     tag: "Popular",
     image: "/photos/London.jpg.jpeg",
@@ -65,10 +65,11 @@ The proper airline is a combination factors such as departure airport, flight sc
     `,
   },
 
+
   dubai: {
-    id:"dubai",
+    id: "dubai",
     name: "Business Class Flights to Dubai",
-    canonical:"https://www.business-classflights.com/flight-to/dubai",
+    canonical: "https://www.business-classflights.com/flight-to/dubai",
     code: "",
     country: "",
     price: 0,
@@ -132,10 +133,11 @@ The proper airline is a combination factors such as departure airport, flight sc
     `,
   },
 
-   paris: {
-    id:"paris",
+
+  paris: {
+    id: "paris",
     name: "Business Class Flights to Paris",
-    canonical:"https://www.business-classflights.com/flight-to/paris",
+    canonical: "https://www.business-classflights.com/flight-to/paris",
     code: "",
     country: "",
     price: 0,
@@ -181,7 +183,7 @@ The proper airline is a combination factors such as departure airport, flight sc
       </p>
       <h2>Popular Business Class Routes to Paris</h2>
       <p>
-      Paris is served by major international airports and is connected with cities across North America, Asia, the Middle East, and other parts of Europe. Popular business class routes to Paris include flights from major international travel hubs such as New York, London, Dubai, Doha, Los Angeles, Singapore, and Delhi.
+      Paris is served by major international airports and is connected with cities across North America, Asia, the Middle East, and other parts of Europe. Popular business class routes to Paris include flights from major international travel hubs such as New York, London, Dubai, Doha, Los Angeles and Singapore.
       </p>
       <p>
       The best route for you will depend on your departure city, preferred airline, travel dates, and whether you want a nonstop or connecting flight. Connecting flights can sometimes provide more fare options, while nonstop services may reduce overall travel time.
@@ -215,10 +217,11 @@ travel requirements.
     `,
   },
 
-   newyork: {
-    id:"newyork",
+
+  newyork: {
+    id: "newyork",
     name: "Business Class Flights to New York",
-    canonical:"https://www.business-classflights.com/flight-to/newyork",
+    canonical: "https://www.business-classflights.com/flight-to/newyork",
     code: "",
     country: "",
     price: 0,
@@ -331,31 +334,72 @@ Planning transportation before departure can make the arrival process easier. Ne
     <h2>Tips for Finding Better Business Class Deals in New York</h2>
     <p>A few simple strategies can help travelers compare business class deals more effectively:</p>
 
-
-
     `,
   },
 
 
 
-   losangeles: {
-    id:"losangeles",
-    name: "Los Angeles",
-    canonical:"https://www.business-classflights.com/flight-to/losangeles",
+  losangeles: {
+    id: "losangeles",
+    name: "Business Class Flights to Los Angeles",
+    canonical: "https://www.business-classflights.com/flight-to/losangeles",
     code: "",
     country: "",
     price: 0,
     tag: "Luxury Choice",
     image: "/photos/losangles.png",
-    description: ``,
+    description: `
+    <p>Experience a more comfortable and convenient journey with business class flights to Los Angeles. Whether you are traveling for business or leisure, flying in business class can provide added comfort, priority services, spacious seating, and a more relaxed airport experience.</p>
+    <p>Compare available flight options, airlines, routes, travel dates, and fares to find business class deals to Los Angeles that suit your travel plans.</p>
+    <h2>Cheap Business Class Flights to Los Angeles</h2>
+    <p>Finding cheap business class flights to Los Angeles can be easier when you compare fares across different airlines and travel dates. Prices can vary depending on the departure city, season, availability, and how far in advance you book.</p>
+    <p>
+    Look for flexible travel dates and compare different flight options to find affordable fares without compromising on the benefits of business class. You can also check for business class deals in Los Angeles during promotional periods or less busy travel seasons.
+    </p>
+    <h2>Last-Minute Business Class Flights to Los Angeles</h2>
+    <p>
+    If you need to travel on short notice, last minute business class flights to Los Angeles may still be available. However, last-minute fares can vary significantly based on demand and remaining seat availability.
+    </p>
+    <p>
+    Compare multiple flight options and check nearby travel dates when possible. Booking an available business class seat early in your search can help you find a suitable option for your schedule and budget.
+    </p>
+    <h2>Book Business Class Flights to Los Angeles</h2>
+    <p>
+    When you book business class flights to Los Angeles, consider your preferred travel dates, departure airport, airline, flight duration, and number of stops. Comparing these factors can help you choose a flight that offers the right combination of comfort, convenience, and value.
+    </p>
+    <p>
+    Business class fares may include benefits such as priority check-in, additional baggage allowance, airport lounge access, priority boarding, and more spacious seating, depending on the airline and fare type.
+    </p>
+    <h2>Popular Business Class Routes to Los Angeles</h2>
+    <p>
+    Los Angeles is a major international travel destination, with business class routes connecting the city to destinations across North America, Europe, Asia, and the Middle East.
+    </p>
+    <p>
+    Popular routes can include flights between Los Angeles and major cities such as New York, London, Paris, Tokyo, Dubai, and other important business and travel hubs. Flight availability, schedules, and fares vary by airline and travel date, so comparing different business class routes to Los Angeles can help you find an option that matches your itinerary.
+    </p>
+    <h2>Best Airlines for Business Class Flights to Los Angeles</h2>
+    <p>
+    Several major international and domestic airlines operate business class services to Los Angeles. The right airline can depend on your departure location, preferred schedule, onboard services, and overall travel requirements.
+    </p>
+    <p>
+    When comparing business class airlines to Los Angeles, consider factors such as seat comfort, lounge access, onboard dining, baggage allowance, entertainment, flight frequency, and connections. Comparing these features alongside the fare can help you select a business class option that provides a comfortable travel experience.
+    </p>
+    <h2>Business Class Travel to Los Angeles</h2>
+    <p>
+    Business class travel to Los Angeles offers a more comfortable way to reach one of the world's most popular business and leisure destinations. Los Angeles is known for its entertainment industry, business centers, beaches, shopping, restaurants, and attractions.
+    </p>
+    <p>
+    Whether you are visiting for meetings, a long-haul trip, or a relaxing vacation, business class can make the journey more convenient with premium cabin services and additional travel benefits. Compare flights and travel dates to find a business class option that works for your itinerary.
+    </p>
+    `,
   },
 
 
 
-   sanfrancisco: {
-    id:"sanfrancisco",
+  sanfrancisco: {
+    id: "sanfrancisco",
     name: "San Francisco",
-    canonical:"https://www.business-classflights.com/flight-to/sanfrancisco",
+    canonical: "https://www.business-classflights.com/flight-to/sanfrancisco",
     code: "",
     country: "",
     price: 0,
@@ -365,24 +409,94 @@ Planning transportation before departure can make the arrival process easier. Ne
   },
 
 
-   chicago: {
-    id:"chicago",
-    name: "Chicago",
-    canonical:"https://www.business-classflights.com/flight-to/chicago",
+  chicago: {
+    id: "chicago",
+    name: "Business Class Flights to Chicago",
+    canonical: "https://www.business-classflights.com/flight-to/chicago",
     code: "",
     country: "",
     price: 0,
     tag: "Luxury Choice",
     image: "/photos/Chicago.png",
-    description: ``,
+    description: `
+    <p>Find and compare business class flights to Chicago from major cities across the United States and around the world. Business class can provide a more comfortable journey with benefits such as spacious seating, priority airport services, lounge access, and additional baggage, depending on the airline and fare.</p>
+    <p>Choose from different airlines, routes, schedules, and travel dates to find a flight that fits your trip. Flexible dates can also give you access to a wider range of business class flight deals.</p>
+    <h2>Cheap Business Class Flights to Chicago</h2>
+    <p>
+    The cost of cheap business class flights to Chicago varies by departure city, airline, travel dates, route, and seat availability. Checking different dates and flight options can help you find a more competitive fare.
+    </p>
+    <p>
+    Connecting flights may offer additional choices when nonstop services are limited. Before booking, review the fare conditions and included services, including baggage, seat selection, changes, and cancellations.
+    </p>
+    <p>
+    A lower ticket price is not always the best value if another fare includes useful benefits or offers a more convenient itinerary.
+    </p>
+    <h2>Last-Minute Business Class Flights to Chicago</h2>
+    <p>
+    Last-minute business class flights to Chicago are available for travelers who need to make a short-notice trip. However, premium cabin availability can become limited as departure approaches, while prices may change according to demand.
+    </p>
+    <p>
+    If your schedule allows, check alternative departure times or nearby dates. This can increase your chances of finding an available flight that works with your plans.
+    </p>
+    <p>For time-sensitive travel, booking as soon as your itinerary is confirmed gives you more choice of flights and seats.</p>
+    <h2>Book Business Class Flights to Chicago</h2>
+    <p>
+    To book business class flights to Chicago, enter your departure city and travel dates, select business class, and review the available itineraries.
+    </p>
+    <p>
+    Chicago is served by two major airports: O'Hare International Airport (ORD) and Midway International Airport (MDW). O'Hare provides extensive domestic and international connections, while Midway primarily handles domestic services. Depending on your route, checking both airports can provide additional options.
+    </p>
+    <p>
+    Review the complete itinerary, including flight duration, stops, baggage allowance, seat options, and ticket conditions before purchasing
+    </p>
+    <h2>Popular Business Class Routes to Chicago</h2>
+    <p>
+    Chicago has business class connections from major cities throughout the United States and international markets.
+    </p>
+<p>
+Popular domestic routes include New York, Los Angeles, San Francisco, Miami, Dallas, Houston, Atlanta, Boston, Seattle, and Washington, D.C. International services connect Chicago with major destinations across Europe, Asia, the Middle East, and other regions.
+</p>
+<p>
+Nonstop routes can reduce travel time, while connecting itineraries may provide more scheduling options for certain destinations.
+</p>
+<h2>Best Airlines for Business Class Flights to Chicago</h2>
+<p>
+Airline choice depends on your route, schedule, aircraft, and preferred onboard experience. Different carriers offer varying business class seats, services, and airport benefits.
+</p>
+<p>
+When choosing among business class airlines to Chicago, consider:
+</p>
+<ul class="pl-6">
+<li>	Business class seat configuration</li>
+<li>	Aircraft type</li>
+<li>	Lounge access</li>
+<li>	Baggage allowance</li>
+<li>	Onboard service</li>
+<li>	Flight frequency</li>
+<li>	Connection options</li>
+</ul>
+<p>
+For long-haul journeys, check the aircraft scheduled for your flight because business class products can differ between aircraft operated by the same airline.
+</p>
+<h2>Business Class Travel to Chicago</h2>
+<p>
+Business class travel to Chicago can be a convenient choice for travelers who value additional comfort and premium airport services. Depending on the airline and itinerary, passengers may receive priority check-in and boarding, lounge access, extra baggage, premium seating, and enhanced onboard service.
+</p>
+<p>
+Chicago is a major center for business, conferences, finance, technology, tourism, and entertainment. Popular attractions include Millennium Park, Navy Pier, the Art Institute of Chicago, and the Magnificent Mile.
+</p>
+<p>
+For a comfortable trip, consider the overall journey rather than the cabin alone. Flight duration, connection time, aircraft, and arrival schedule can all affect the travel experience.
+</p>
+    `,
   },
 
 
 
-   miami: {
-    id:"miami",
+  miami: {
+    id: "miami",
     name: "Miami",
-    canonical:"https://www.business-classflights.com/flight-to/miami",
+    canonical: "https://www.business-classflights.com/flight-to/miami",
     code: "",
     country: "",
     price: 0,
@@ -391,12 +505,12 @@ Planning transportation before departure can make the arrival process easier. Ne
     description: ``,
   },
 
-  
 
-   lasvegas: {
-    id:"lasvegas",
+
+  lasvegas: {
+    id: "lasvegas",
     name: "Las Vegas",
-    canonical:"https://www.business-classflights.com/flight-to/lasvegas",
+    canonical: "https://www.business-classflights.com/flight-to/lasvegas",
     code: "",
     country: "",
     price: 0,
@@ -404,5 +518,5 @@ Planning transportation before departure can make the arrival process easier. Ne
     image: "/photos/Las Vegas.png",
     description: ``,
   },
-  
+
 };

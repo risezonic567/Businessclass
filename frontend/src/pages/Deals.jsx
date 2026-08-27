@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Helmet } from "react-helmet";
+import { Link } from "react-router-dom";
 
 export default function Deals() {
   const [tab, setTab] = useState("all");
@@ -39,15 +40,16 @@ export default function Deals() {
     tab === "all" ? deals : deals.filter((d) => d.type === tab);
 
   const destinations = [
-    "London",
-    "Dubai",
-    "Paris",
-    "New York",
-    "Los Angeles",
-    "San Francisco",
-    "Chicago",
-    "Miami",
-    "Las Vegas",
+    {name:"London",path:"/flight-to/london"},
+    {name:"Dubai",path:"/flight-to/dubai"},
+    {name:"Paris",path:"/flight-to/paris"},
+    {name:"New York",path:"/flight-to/newyork"},
+    {name:"Los Angeles",path:"/flight-to/losangeles"},
+    {name:"San Francisco",path:"/flight-to/sanfrancisco"},
+    {name:"Chicago",path:"/flight-to/chicago"},
+    {name:"Miami",path:"/flight-to/miami"},
+    {name:"Las Vegas",path:"/flight-to/lasvegas"},
+  
   ];
 
   const jsonLdData = JSON.stringify({
@@ -383,9 +385,11 @@ put on flight deal page"
               <div className="col-sm-6 col-md-4" key={index}>
                 <div className="card border-0 shadow-sm h-100 rounded-4">
                   <div className="card-body">
+                    <Link to={destination.path}>
                     <h5 className="fw-semibold mb-0">
-                      Business Class Flights to {destination}
+                      Business Class Flights to {destination.name}
                     </h5>
+                    </Link>
                   </div>
                 </div>
               </div>

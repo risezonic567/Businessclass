@@ -70,15 +70,15 @@ const filteredDestinations = destinations.filter((d) =>
                 <div className="card-body d-flex flex-column justify-content-between p-4">
                   <div>
                     <h5 className="fw-bold text-black mb-1">{dest.name}</h5>
-                    <p className="small text-secondary d-flex align-items-center gap-1 mb-3">
+                    {/* <p className="small text-secondary d-flex align-items-center gap-1 mb-3">
                       <MapPin size={14} /> {dest.country}
-                    </p>
+                    </p> */}
                   </div>
 
                   <div className="d-flex align-items-center justify-content-between pt-3 border-top border-slate-800">
                     <div>
-                      <span className="small text-secondary d-block">Starting from</span>
-                      <span className="h5 fw-bold text-black mb-0">${dest.price}</span>
+                      <span className="small text-secondary d-block">Read More</span>
+                      {/* <span className="h5 fw-bold text-black mb-0">${dest.price}</span> */}
                     </div>
                     <button 
                       className="btn btn-sm bg-amber-soft text-amber rounded-3 p-2 border-0"

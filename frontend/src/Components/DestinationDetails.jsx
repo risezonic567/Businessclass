@@ -57,7 +57,7 @@ export default function DestinationDetail() {
             {/* </div> */}
           </div>
           <div className="mt-3">
-              <h5 className="fw-bold">Description</h5>
+             
               <div dangerouslySetInnerHTML={{ __html: destination.description }} />
             </div>
         </div>
