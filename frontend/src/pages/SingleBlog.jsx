@@ -21,6 +21,12 @@ export default function SingleBlog() {
           rel="canonical"
           href={`https://www.business-classflights.com/${post.slug}`}
         />
+
+           {post.schema && (
+                    <script type="application/ld+json">
+                        {JSON.stringify(post.schema)}
+                    </script>
+                )}
       </Helmet>
 
       <h1 className="fw-bold mb-3">

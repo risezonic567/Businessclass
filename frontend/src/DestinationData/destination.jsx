@@ -19,15 +19,12 @@ Choose from one-way and round-trip flights, nonstop and connecting services, and
       <p>
       Find cheap business class flights to London by comparing different airlines, routes, departure airports, and travel dates. Business class fares can vary depending on demand, availability, season, and how far in advance you book.<br/><br/>
 If your schedule is flexible, checking different travel dates and nearby departure airports may give you more fare options. Compare the available business class airfare to London to choose a ticket that offers the right balance of price, schedule, and included services.
-
-
       </p>
       <p>
       Last-Minute Deals for Business Class Flights to London<br/>
 
 Do you need to fly to London at short notice? Depending on where you fly to and from, the airline, and the date you want to fly, last-minute business class flights to London may exist.<br/>
 To save money, you should see what business class tickets are like on as many airlines and as many schedules as possible. Booking last minute means flexibility and the ability to be spontaneous to take whatever business class flight is available.
-
 
       </p>
       <h3>Book Business Class Flights to London</h3>
@@ -43,7 +40,6 @@ To save money, you should see what business class tickets are like on as many ai
       <p>
       Popular business class routes to London include flights from major international hubs and large business centers. Depending on your departure city and travel date, you may find nonstop or connecting services.<br/>
 Compare routes, departure times, airlines, and available fares to find the most convenient option for your journey.
-
       </p>
       <p>
       <b>Best Airlines for Business Class Flights to London</b>
