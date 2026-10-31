@@ -97,12 +97,18 @@ export default function Banner() {
       <div className="container position-relative text-center px-3 relative mt-5 my-5">
         {/* Heading */}
         <div className="absolute bottom-0 mt-5">
+          <p
+            className="text-uppercase mb-2"
+            style={{ letterSpacing: "0.12em", fontSize: "0.8rem", fontWeight: 700, opacity: 0.9 }}
+          >
+            Business Class Flights
+          </p>
           <h1 className="fw-bold mb-2 banner-title">
-          Get Luxury Business & First Class flights deals 
-        </h1>
+            Discount Business Class Airfare – Exclusive International Discounts
+          </h1>
 
         <p className="opacity-75 mb-4 banner-subtitle">
-          Exclusive luxury flight deals curated by travel experts
+          Discounted business class flights and cheap tickets from US travel specialists.
         </p>
 
         {/* Search Box */}

@@ -2,8 +2,6 @@ import React, { useState } from "react";
 import Banner from "../Components/Banner";
 import CustomerTrust from "../Components/CustomerTrust";
 import AutoPlay from "../Components/AutoPlay";
-import FAQ from "../Components/FAQ";
-import PolularDestination from "../Components/PolularDestination";
 import Discound from "../Components/Discound";
 import { Helmet } from "react-helmet";
 import Destinations from "./DestinationPage";
@@ -11,45 +9,64 @@ import Destinations from "./DestinationPage";
 const faqs = [
   {
     q: "How much does it cost to fly business class?",
-    a: "Business class fares vary by route, airline, and season. Prices can range from moderately higher than economy to several times more, depending on availability, demand, and how early you book.",
+    a: "It depends on where you're going, which airline you pick, the season, and how early you book. A long international flight costs a lot more than a short one. Tell us your route and dates, and we'll look for a better fare than the one you see online.",
   },
   {
-    q: "Which airlines offer the best business class experience?",
-    a: "Many international airlines are known for high-quality business class cabins, including airlines from the Middle East, Europe, and Asia, as well as major global carriers from the US.",
+    q: "Which airlines have the best business class?",
+    a: "Emirates, Qatar Airways, Singapore Airlines, British Airways, and Air France come up a lot, mostly for their lie-flat seats and service. The “best” one really depends on your route, schedule, and budget. Share your trip, and we'll compare a few for you.",
   },
   {
-    q: "What type of business class flight deals can I find?",
-    a: "You can find one-way, round-trip, multi-city, advance booking, and last-minute business class fares. Some airlines also offer promotional upgrades from economy to business class.",
+    q: "What kinds of business class deals can I find?",
+    a: "Usually discounted international fares, flexible-date options, and round-trip deals on major routes. Seats and prices change from day to day, so the quickest way to see what's available right now is to give us a call.",
   },
   {
-    q: "What are the most popular business class destinations?",
-    a: "Popular business class routes often include major global hubs such as London, Paris, Dubai, Singapore, New York, and cities across Europe and Asia.",
+    q: "Where do most people fly in business class?",
+    a: "London, Dubai, Paris, New York, Los Angeles and San Francisco are the routes people ask us about most. Don't see your city? Ask us. We book plenty of other routes too.",
   },
   {
-    q: "Which cities are most frequently booked in business class?",
-    a: "Cities like New York, London, Dubai, Paris, Milan, Delhi, Mumbai, Bangkok, and Singapore are among the most common business class destinations.",
+    q: "Is it safe to book business class online?",
+    a: "Yes. We use secure booking and payment, and we go over your itinerary and ticket details with you before you travel, so there are no surprises.",
   },
   {
-    q: "Is booking business class online secure?",
-    a: "Yes. Reputable travel platforms use encrypted payment systems and partner with trusted airlines and ticket providers to ensure secure bookings.",
+    q: "Can I change the date on my business class ticket?",
+    a: "Sometimes. It comes down to the fare rules. Some tickets allow changes for a fee or a fare difference, and others don't. If flexibility matters to you, tell us up front, and we'll look for fares that give you room to move.",
   },
   {
-    q: "Can I change or cancel a business class ticket?",
-    a: "Most business class tickets offer flexible change and cancellation options, although policies depend on the airline and fare type you choose.",
+    q: "Do you book first class flights too?",
+    a: "Yes, on select routes and airlines. Send us your route and dates, and we'll let you know what's available.",
+  },
+  {
+    q: "How early should I book?",
+    a: "A few weeks ahead is usually a good rule of thumb. You get more seats and fares to choose from, especially around holidays and peak travel dates. Leaving it late? Call us anyway, because last-minute options sometimes pop up.",
   },
 ];
 
 export default function Home() {
-  const [open, setOpen] = useState(null)
+  const [open, setOpen] = useState(null);
+  const [corpForm, setCorpForm] = useState({
+    name: "",
+    phone: "",
+    route: "",
+  });
+
+  const handleCorpChange = (e) => {
+    setCorpForm({ ...corpForm, [e.target.name]: e.target.value });
+  };
+
+  const handleCorpSubmit = (e) => {
+    e.preventDefault();
+    alert("Quote request submitted successfully!");
+  };
+
   return (
     <>
       <Helmet>
         <title>
-          Business Class Flights | Discount International Premium Tickets
+          Discounts on Business Class Flights | Low Business Class Airfares
         </title>
         <meta
           name="description"
-          content="Book premium Business Class Flights at discounted prices worldwide. Save up to 40% on international tickets with expert support and secure booking assistance."
+          content="Discounts on US travel agencies for business class airfare. Cheap business class tickets and reduced airfares. Book your international flights. Call now."
         />
         <link rel="canonical" href="https://www.business-classflights.com/" />
         <script type="application/ld+json">
@@ -134,7 +151,7 @@ export default function Home() {
 "@type":"WebPage",
 "@id":"https://www.business-classflights.com/#webpage",
 "url":"https://www.business-classflights.com/",
-"name":"Business Class Flights - Discount Premium Airline Tickets",
+"name":"Discounts on Business Class Flights | Low Business Class Airfares",
 "isPartOf":{
 "@id":"https://www.business-classflights.com/#website"
 },
@@ -160,27 +177,159 @@ export default function Home() {
 }`}
         </script>
       </Helmet>
+
       <Banner />
       <CustomerTrust />
 
+      {/* How it works */}
+      <section className="py-5 bg-light">
+        <div className="container py-3">
+          <h2 className="fw-bold text-center mb-5" style={{ color: "blue" }}>
+            How It Works
+          </h2>
+          <div className="row g-4">
+            {[
+              {
+                n: "1",
+                t: "Tell us about your trip",
+                d: "Share where you're headed, when you want to travel, and which cabin you prefer. It only takes a few minutes.",
+              },
+              {
+                n: "2",
+                t: "We find your fares",
+                d: "One of our advisors compares airlines and fares for your dates, then sends you the best options.",
+              },
+              {
+                n: "3",
+                t: "Pick your flight and book",
+                d: "Look over the details, ask us anything, and confirm only when you're happy with the fare.",
+              },
+              {
+                n: "4",
+                t: "Fly business class",
+                d: "We're just a phone call away for changes, questions, or anything else before and during your trip.",
+              },
+            ].map((step) => (
+              <div className="col-md-6 col-lg-3" key={step.n}>
+                <div className="h-100 bg-white rounded-4 p-4 shadow-sm">
+                  <div
+                    className="rounded-circle d-inline-flex align-items-center justify-content-center fw-bold mb-3 text-white"
+                    style={{ width: 42, height: 42, background: "blue" }}
+                  >
+                    {step.n}
+                  </div>
+                  <h3 className="h6 fw-bold text-dark">{step.t}</h3>
+                  <p className="mb-0 small text-muted">{step.d}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       <Discound />
-      {/* <PolularDestination /> */}
       <Destinations />
-      <div className="bg-blue">
+
+      {/* Corporate */}
+      <section className="py-5 bg-light">
+        <div className="container py-3">
+          <div className="row g-5 align-items-center">
+            <div className="col-lg-7">
+              <p
+                className="text-uppercase mb-2"
+                style={{ letterSpacing: "0.1em", color: "blue", fontSize: "0.8rem", fontWeight: 700 }}
+              >
+                For Business Travelers
+              </p>
+              <h2 className="fw-bold mb-3" style={{ color: "blue" }}>
+                International Business Class Fares &amp; Corporate Rates
+              </h2>
+              <p className="text-muted" style={{ lineHeight: 1.7 }}>
+                Flying for work? Long trips are easier when you arrive rested,
+                and the right fare keeps your budget in check too. We offer
+                corporate rates on business class flights for solo travelers,
+                small teams, and growing companies. We also compare international
+                business class fares across airlines, so you can pick the mix of
+                price, schedule, and flexibility that fits your trip.
+              </p>
+              <p className="mb-0 text-muted" style={{ lineHeight: 1.7 }}>
+                Travel often? Ask us about multi-trip planning and flexible
+                tickets. One advisor can look after all your bookings, so
+                you&apos;re not starting from scratch every time.
+              </p>
+            </div>
+            <div className="col-lg-5">
+              <div className="bg-white text-dark rounded-4 p-4 p-md-5 shadow">
+                <h3 className="h5 fw-bold mb-3" style={{ color: "blue" }}>
+                  Get a Corporate Quote
+                </h3>
+                <form onSubmit={handleCorpSubmit}>
+                  <div className="mb-3">
+                    <label className="form-label small">Name</label>
+                    <input
+                      type="text"
+                      className="form-control"
+                      name="name"
+                      value={corpForm.name}
+                      onChange={handleCorpChange}
+                      required
+                    />
+                  </div>
+                  <div className="mb-3">
+                    <label className="form-label small">Phone</label>
+                    <input
+                      type="tel"
+                      className="form-control"
+                      name="phone"
+                      value={corpForm.phone}
+                      onChange={handleCorpChange}
+                      required
+                    />
+                  </div>
+                  <div className="mb-3">
+                    <label className="form-label small">Route and dates</label>
+                    <input
+                      type="text"
+                      className="form-control"
+                      name="route"
+                      placeholder="e.g. NYC–LON, Mar 12–19"
+                      value={corpForm.route}
+                      onChange={handleCorpChange}
+                      required
+                    />
+                  </div>
+                  <button
+                    type="submit"
+                    className="btn w-100 fw-bold text-white"
+                    style={{ background: "blue", borderRadius: "30px" }}
+                  >
+                    Get My Quote
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div className="py-5">
         <div className="container" style={{ maxWidth: "900px" }}>
-          <h3 className="fw-bold mb-4 text-center" style={{ fontSize: "36px", color: "blue" }}>
-            Business Class Faqs
-          </h3>
+          <h2
+            className="fw-bold mb-4 text-center"
+            style={{ fontSize: "36px", color: "blue" }}
+          >
+            Business Class FAQs
+          </h2>
 
           {faqs.map((item, i) => (
-            <div key={i} className="border-bottom py-4">
+            <div key={item.q} className="border-bottom py-4">
               <div
                 className="d-flex justify-content-between align-items-start"
                 style={{ cursor: "pointer" }}
                 onClick={() => setOpen(open === i ? null : i)}
               >
-                <h5
-                  className="mb-0"
+                <h3
+                  className="h5 mb-0"
                   style={{
                     fontWeight: "600",
                     fontSize: "18px",
@@ -188,7 +337,7 @@ export default function Home() {
                   }}
                 >
                   {item.q}
-                </h5>
+                </h3>
 
                 <span style={{ fontSize: "22px", fontWeight: "600" }}>
                   {open === i ? "−" : "+"}

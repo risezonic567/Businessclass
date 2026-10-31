@@ -40,7 +40,7 @@ const filteredDestinations = destinations.filter((d) =>
         <div className="d-flex flex-column flex-md-row justify-content-between align-items-md-end mb-4 gap-2">
           <div>
             <h2 className="h3 fw-bold text-black mb-1">Popular Business Class Routes</h2>
-            <p className="text-secondary mb-0">Handpicked premium routes updated with live estimate rates.</p>
+            <p className="text-secondary mb-0">Our most requested routes, with fares that change by date and availability. Call for a quote that fits your trip.</p>
           </div>
           <span className="small text-secondary">
             Showing <span className="text-amber fw-bold">{filteredDestinations.length}</span> destinations

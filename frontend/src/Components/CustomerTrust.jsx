@@ -54,11 +54,17 @@ export default function CustomerTrust() {
           }}
         >
           <h2 className="fw-bold mb-3" style={{color:"black"}}>
-            Business Class Travel Specialists Dedicated To You
+            Fly Business Class Without Paying Full Airline Prices
           </h2>
 
           <p className="text-muted">
-            We are experts in discounted business and first-class fares from the US to all major international destinations. All of our travel advisors exclusively negotiate unpublished fares that save you 40% or more when flying in a premium cabin.
+            Flying in business class doesn&apos;t have to mean paying the full
+            listed price. Our travel specialists help you find discount business
+            class flights on international routes from the US, including London,
+            Dubai, Paris, New York, and Los Angeles. We compare airlines,
+            cabins, and dates, so you can review the cheapest business class
+            airfares before you book. Whether you travel for work or plan a
+            long-haul holiday, one search or one call gets you started.
             </p>
 
           <div className="d-flex gap-4 my-2">
@@ -121,12 +127,16 @@ export default function CustomerTrust() {
             transition: "all 1s ease-out",
           }}
         >
-          <h4 className="fw-bold mb-3" style={{color:"blue"}}>
+          <h2 className="h4 fw-bold mb-3" style={{color:"blue"}}>
              Personalized Discount Business & First Class Flight Booking
-          </h4>
+          </h2>
 
           <p className="text-muted">
-            Experience top-class service from our travel experts as they work to help you get exclusive unpublished rates on your international travel. With our ability to negotiate on behalf of clients, you will receive substantial discounts on premium seating tickets versus the price listed by the airline. Whether for business or leisure travel, Premium-Class Travel is ready to assist you!
+            Our advisors negotiate on your behalf to find business class flights
+            tickets at a discount compared to the airline&apos;s listed price.
+            You share your route, dates, and preferences, and we return clear
+            fare options with the cabin, airline, and baggage details explained.
+            If a better option appears, we help you rebook within the fare rules.
           </p>
 
           <a

@@ -22,9 +22,12 @@ export default function DestinationDetail() {
   return (
     <>
     <Helmet>
-
+      <title>{destination.name} | Business Class Flights</title>
+      <meta
+        name="description"
+        content={`Compare and book ${destination.name}. Get real fare options from US-based advisors. Call (866) 307-5957.`}
+      />
       <link rel="canonical" href={destination.canonical} />
-      
     </Helmet>
     <div className="bg-dark text-white min-vh-100 py-5">
       <div className="container">
