@@ -68,6 +68,7 @@ export default function Home() {
           name="description"
           content="Discounts on US travel agencies for business class airfare. Cheap business class tickets and reduced airfares. Book your international flights. Call now."
         />
+        
         <link rel="canonical" href="https://www.business-classflights.com/" />
         <meta
           property="og:title"
