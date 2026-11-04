@@ -29,14 +29,37 @@ export default function MyTrip() {
   return (
     <>
       <Helmet>
-        <title>Flight Status Check | Track Your Business Class Booking</title>
+        <title>
+          Check Your Business Class Flight Status | Business Class Flights
+        </title>
         <meta
           name="description"
-          content="Check your business class flight booking with your ticket number or email. See trip details and get help from our Tustin, CA team 24/7."
+          content="Check your business class flight booking with your ticket number or email. View trip details and get 24/7 help from our Tustin, CA team. Call (866) 307-5957."
         />
         <link
           rel="canonical"
           href="https://www.business-classflights.com/flight-status"
+        />
+        <meta
+          property="og:title"
+          content="Check Your Business Class Flight Status | Business Class Flights"
+        />
+        <meta
+          property="og:description"
+          content="Check your business class flight booking with your ticket number or email. View trip details and get 24/7 help from our Tustin, CA team. Call (866) 307-5957."
+        />
+        <meta
+          property="og:url"
+          content="https://www.business-classflights.com/flight-status"
+        />
+        <meta property="og:type" content="website" />
+        <meta
+          name="twitter:title"
+          content="Check Your Business Class Flight Status | Business Class Flights"
+        />
+        <meta
+          name="twitter:description"
+          content="Check your business class flight booking with your ticket number or email. View trip details and get 24/7 help from our Tustin, CA team. Call (866) 307-5957."
         />
         <script type="application/ld+json">
           {`{
@@ -44,7 +67,7 @@ export default function MyTrip() {
 "@type":"WebApplication",
 "name":"Flight Status Check",
 "url":"https://www.business-classflights.com/flight-status",
-"description":"Check your business class flight booking with your ticket number or email. See trip details and get help from our Tustin, CA team 24/7.",
+"description":"Check your business class flight booking with your ticket number or email. View trip details and get 24/7 help from our Tustin, CA team. Call (866) 307-5957.",
 "applicationCategory":"TravelApplication",
 "operatingSystem":"All",
 "publisher":{

@@ -22,12 +22,41 @@ export default function DestinationDetail() {
   return (
     <>
     <Helmet>
-      <title>{destination.name} | Business Class Flights</title>
+      <title>
+        {destination.metaTitle || `${destination.name} | Business Class Flights`}
+      </title>
       <meta
         name="description"
-        content={`Compare and book ${destination.name}. Get real fare options from US-based advisors. Call (866) 307-5957.`}
+        content={
+          destination.metaDescription ||
+          `Compare and book ${destination.name}. Get real fare options from US-based advisors. Call (866) 307-5957.`
+        }
       />
       <link rel="canonical" href={destination.canonical} />
+      <meta
+        property="og:title"
+        content={destination.metaTitle || `${destination.name} | Business Class Flights`}
+      />
+      <meta
+        property="og:description"
+        content={
+          destination.metaDescription ||
+          `Compare and book ${destination.name}. Get real fare options from US-based advisors. Call (866) 307-5957.`
+        }
+      />
+      <meta property="og:url" content={destination.canonical} />
+      <meta property="og:type" content="website" />
+      <meta
+        name="twitter:title"
+        content={destination.metaTitle || `${destination.name} | Business Class Flights`}
+      />
+      <meta
+        name="twitter:description"
+        content={
+          destination.metaDescription ||
+          `Compare and book ${destination.name}. Get real fare options from US-based advisors. Call (866) 307-5957.`
+        }
+      />
     </Helmet>
     <div className="bg-dark text-white min-vh-100 py-5">
       <div className="container">

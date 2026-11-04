@@ -3,6 +3,9 @@ export const DESTINATIONS_DATA = {
   london: {
     id: "london",
     name: "Business Class Flights to London",
+    metaTitle: "Business Class Flights to London | Discount Business Class Airfare",
+    metaDescription:
+      "Book business class flights to London from the US. Compare airlines, Heathrow options and fares with advisors in Tustin, CA. Call (866) 307-5957.",
     canonical: "https://www.business-classflights.com/flight-to/london",
     code: "",
     country: "London, United Kingdom",
@@ -151,6 +154,9 @@ Send us your departure city and dates. We’ll reply with options, usually the s
   dubai: {
     id: "dubai",
     name: "Business Class Flights to Dubai",
+    metaTitle: "Business Class Flights to Dubai | Discount Business Class Airfare",
+    metaDescription:
+      "Book business class flights to Dubai from the US. Compare airlines, routes and fares with advisors in Tustin, CA. Call (866) 307-5957.",
     canonical: "https://www.business-classflights.com/flight-to/dubai",
     code: "",
     country: "",
@@ -219,6 +225,9 @@ Send us your departure city and dates. We’ll reply with options, usually the s
   paris: {
     id: "paris",
     name: "Business Class Flights to Paris",
+    metaTitle: "Business Class Flights to Paris | Discount Business Class Airfare",
+    metaDescription:
+      "Book business class flights to Paris from the US. Compare airlines, routes and fares with advisors in Tustin, CA. Call (866) 307-5957.",
     canonical: "https://www.business-classflights.com/flight-to/paris",
     code: "",
     country: "",
@@ -303,6 +312,9 @@ travel requirements.
   newyork: {
     id: "newyork",
     name: "Business Class Flights to New York",
+    metaTitle: "Business Class Flights to New York | Discount Business Class Airfare",
+    metaDescription:
+      "Book business class flights to New York. Compare airlines, routes and fares with advisors in Tustin, CA. Call (866) 307-5957.",
     canonical: "https://www.business-classflights.com/flight-to/newyork",
     code: "",
     country: "",
@@ -424,6 +436,9 @@ Planning transportation before departure can make the arrival process easier. Ne
   losangeles: {
     id: "losangeles",
     name: "Business Class Flights to Los Angeles",
+    metaTitle: "Business Class Flights to Los Angeles | Discount Business Class Airfare",
+    metaDescription:
+      "Book business class flights to Los Angeles. Compare airlines, routes and fares with advisors in Tustin, CA. Call (866) 307-5957.",
     canonical: "https://www.business-classflights.com/flight-to/losangeles",
     code: "",
     country: "",
@@ -481,6 +496,9 @@ Planning transportation before departure can make the arrival process easier. Ne
   sanfrancisco: {
     id: "sanfrancisco",
     name: "Business Class Flights to San Francisco",
+    metaTitle: "Business Class Flights to San Francisco | Discount Business Class Airfare",
+    metaDescription:
+      "Book business class flights to San Francisco. Compare airlines, routes and fares with advisors in Tustin, CA. Call (866) 307-5957.",
     canonical: "https://www.business-classflights.com/flight-to/sanfrancisco",
     code: "",
     country: "",
@@ -545,6 +563,9 @@ Planning transportation before departure can make the arrival process easier. Ne
   chicago: {
     id: "chicago",
     name: "Business Class Flights to Chicago",
+    metaTitle: "Business Class Flights to Chicago | Discount Business Class Airfare",
+    metaDescription:
+      "Book business class flights to Chicago. Compare airlines, routes and fares with advisors in Tustin, CA. Call (866) 307-5957.",
     canonical: "https://www.business-classflights.com/flight-to/chicago",
     code: "",
     country: "",
@@ -629,6 +650,9 @@ For a comfortable trip, consider the overall journey rather than the cabin alone
   miami: {
     id: "miami",
     name: "Business Class Flights to Miami",
+    metaTitle: "Business Class Flights to Miami | Discount Business Class Airfare",
+    metaDescription:
+      "Book business class flights to Miami. Compare airlines, routes and fares with advisors in Tustin, CA. Call (866) 307-5957.",
     canonical: "https://www.business-classflights.com/flight-to/miami",
     code: "",
     country: "",
@@ -686,6 +710,9 @@ For a comfortable trip, consider the overall journey rather than the cabin alone
   lasvegas: {
     id: "lasvegas",
     name: "Business Class Flights to Las Vegas",
+    metaTitle: "Business Class Flights to Las Vegas | Discount Business Class Airfare",
+    metaDescription:
+      "Book business class flights to Las Vegas. Compare airlines, routes and fares with advisors in Tustin, CA. Call (866) 307-5957.",
     canonical: "https://www.business-classflights.com/flight-to/lasvegas",
     code: "",
     country: "",

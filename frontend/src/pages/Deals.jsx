@@ -111,6 +111,27 @@ export default function Deals() {
           rel="canonical"
           href="https://www.business-classflights.com/flight-deals"
         />
+        <meta
+          property="og:title"
+          content="Last-Minute Business Class Flights & International Flight Deals"
+        />
+        <meta
+          property="og:description"
+          content="Compare last-minute and international business class flight deals. US advisors check airlines, dates and nearby airports. Call (866) 307-5957 for a quote."
+        />
+        <meta
+          property="og:url"
+          content="https://www.business-classflights.com/flight-deals"
+        />
+        <meta property="og:type" content="website" />
+        <meta
+          name="twitter:title"
+          content="Last-Minute Business Class Flights & International Flight Deals"
+        />
+        <meta
+          name="twitter:description"
+          content="Compare last-minute and international business class flight deals. US advisors check airlines, dates and nearby airports. Call (866) 307-5957 for a quote."
+        />
         <script type="application/ld+json">{jsonLdData}</script>
       </Helmet>
 

@@ -35,8 +35,10 @@ export default function Navbar() {
           <img
             src="/photos/BUSINESS-CLASS-FLIGHTS-LOGO.png"
             alt="logo"
-            className="ms-5 object-cover"
-            width={66} height={70}
+            className="ms-5"
+            width={66}
+            height={70}
+            style={{ objectFit: "cover" }}
           />
         </Link>
 

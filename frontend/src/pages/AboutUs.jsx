@@ -62,6 +62,27 @@ export default function AboutUs() {
           rel="canonical"
           href="https://www.business-classflights.com/about-us"
         />
+        <meta
+          property="og:title"
+          content="About Us | Business Class Travel Agency in Tustin, CA"
+        />
+        <meta
+          property="og:description"
+          content="Meet Business Class Flights, a Tustin, CA travel agency. We help Orange County and US travelers book discounted business and first class flights with clear pricing."
+        />
+        <meta
+          property="og:url"
+          content="https://www.business-classflights.com/about-us"
+        />
+        <meta property="og:type" content="website" />
+        <meta
+          name="twitter:title"
+          content="About Us | Business Class Travel Agency in Tustin, CA"
+        />
+        <meta
+          name="twitter:description"
+          content="Meet Business Class Flights, a Tustin, CA travel agency. We help Orange County and US travelers book discounted business and first class flights with clear pricing."
+        />
         <script type="application/ld+json">
           {`{
 "@context":"https://schema.org",

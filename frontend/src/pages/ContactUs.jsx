@@ -34,6 +34,27 @@ export default function ContactUs() {
           rel="canonical"
           href="https://www.business-classflights.com/contact-us"
         />
+        <meta
+          property="og:title"
+          content="Contact Business Class Flights | Call or Message Us"
+        />
+        <meta
+          property="og:description"
+          content="Got a question about a business class fare or your booking? Call us at (866) 307-5957 or drop a message. We're based in Tustin, CA."
+        />
+        <meta
+          property="og:url"
+          content="https://www.business-classflights.com/contact-us"
+        />
+        <meta property="og:type" content="website" />
+        <meta
+          name="twitter:title"
+          content="Contact Business Class Flights | Call or Message Us"
+        />
+        <meta
+          name="twitter:description"
+          content="Got a question about a business class fare or your booking? Call us at (866) 307-5957 or drop a message. We're based in Tustin, CA."
+        />
         <script type="application/ld+json">
           {`{
 "@context":"https://schema.org",

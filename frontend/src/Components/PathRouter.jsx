@@ -15,6 +15,9 @@ import ContactUs from "../pages/ContactUs";
 import SingleBlog from "../pages/SingleBlog";
 import Destinations from "../pages/DestinationPage";
 import DestinationDetail from "./DestinationDetails";
+import FlightResults from "../pages/FlightResults";
+import QuoteRequest from "../pages/QuoteRequest";
+import Passengers from "../pages/Passengers";
 
 export default function PathRouter() {
   return (
@@ -26,7 +29,6 @@ export default function PathRouter() {
         <Route path="/flight-status" element={<MyTrip />} />
         <Route path="/contact-us" element={<ContactUs />} />
         <Route path="/about-us" element={<AboutUs />} />
-        <Route path="/contact-us" element={<ContactUs />} />
         <Route path="/faq" element={<FAQ />} />
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
         <Route path="/term-condition" element={<TermsCondition />} />
@@ -34,6 +36,9 @@ export default function PathRouter() {
         <Route path="/blog/:slug" element={<SingleBlog />} />
         <Route path="destination" element={<Destinations />} />
         <Route path="/flight-to/:slug" element={<DestinationDetail />} />
+        <Route path="/flight-results" element={<FlightResults />} />
+        <Route path="/passengers/:offerId" element={<Passengers />} />
+        <Route path="/quote/:offerId" element={<QuoteRequest />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </div>

@@ -1,6 +1,23 @@
 version: "3.9"
 
 services:
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: business-class-backend
+    restart: always
+    ports:
+      - "5001:5000"
+    env_file:
+      - ./backend/.env
+    environment:
+      # Inside container always listen on 5000 (compose maps host 5001)
+      PORT: "5000"
+      MONGO_URL: mongodb://mongo:27017/businessclass
+    depends_on:
+      - mongo
+
   frontend:
     build:
       context: ./frontend
@@ -9,3 +26,17 @@ services:
     restart: always
     ports:
       - "8888:80"
+    depends_on:
+      - backend
+
+  mongo:
+    image: mongo:7
+    container_name: business-class-mongo
+    restart: always
+    ports:
+      - "27018:27017"
+    volumes:
+      - bc_mongo_data:/data/db
+
+volumes:
+  bc_mongo_data:

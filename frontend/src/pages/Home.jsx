@@ -69,6 +69,24 @@ export default function Home() {
           content="Discounts on US travel agencies for business class airfare. Cheap business class tickets and reduced airfares. Book your international flights. Call now."
         />
         <link rel="canonical" href="https://www.business-classflights.com/" />
+        <meta
+          property="og:title"
+          content="Discounts on Business Class Flights | Low Business Class Airfares"
+        />
+        <meta
+          property="og:description"
+          content="Discounts on US travel agencies for business class airfare. Cheap business class tickets and reduced airfares. Book your international flights. Call now."
+        />
+        <meta property="og:url" content="https://www.business-classflights.com/" />
+        <meta property="og:type" content="website" />
+        <meta
+          name="twitter:title"
+          content="Discounts on Business Class Flights | Low Business Class Airfares"
+        />
+        <meta
+          name="twitter:description"
+          content="Discounts on US travel agencies for business class airfare. Cheap business class tickets and reduced airfares. Book your international flights. Call now."
+        />
         <script type="application/ld+json">
           {`{
 "@context": "https://schema.org",
