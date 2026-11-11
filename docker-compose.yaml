@@ -8,11 +8,12 @@ services:
     container_name: business-class-backend
     restart: always
     ports:
-      - "5001:5000"
+      # Hostinger host nginx proxies /api → 5011 (5001 often busy on VPS)
+      - "5011:5000"
     env_file:
       - ./backend/.env
     environment:
-      # Inside container always listen on 5000 (compose maps host 5001)
+      # Inside container always listen on 5000 (compose maps host 5011)
       PORT: "5000"
       MONGO_URL: mongodb://mongo:27017/businessclass
     depends_on:
@@ -34,7 +35,7 @@ services:
     container_name: business-class-mongo
     restart: always
     ports:
-      - "27018:27017"
+      - "27019:27017"
     volumes:
       - bc_mongo_data:/data/db
 

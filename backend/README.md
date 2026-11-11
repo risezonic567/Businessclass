@@ -14,7 +14,7 @@ Duffel search + offer detail + quote enquiry. No Razorpay / OAuth / Twilio / Clo
 
 1. Copy `.env.example` → `.env` and set `DUFFEL_API`, Mongo, optional SMTP.
 2. `npm install && npm run dev`
-3. Default port `5000` (docker maps host `5001:5000`).
+3. Default port `5000` (docker maps host `5011:5000`).
 
 ## Docker
 
