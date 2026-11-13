@@ -16,17 +16,21 @@ jobs:
           host: ${{ secrets.SSH_HOST }}
           username: root
           key: ${{ secrets.SSH_PRIVATE_KEY }}
+          script_stop: true
           script: |
+            set -e
             cd /var/www/Businessclass
-            
-            git pull origin main
 
-            docker-compose down
+            git fetch origin main
+            git reset --hard origin/main
+            git log -1 --oneline
 
-            docker system prune -f
+            grep -q "Open in Google Maps" frontend/src/pages/ContactUs.jsx
 
-            docker-compose build --no-cache
+            docker compose down || docker-compose down
 
-            docker-compose up -d
+            docker compose build --no-cache || docker-compose build --no-cache
+
+            docker compose up -d || docker-compose up -d
 
             docker ps

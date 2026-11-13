@@ -156,10 +156,10 @@ export default function ContactUs() {
                         href="https://maps.google.com/?q=17662+Irvine+Blvd+Suite+9+Tustin+CA+92780"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="d-inline-flex align-items-center gap-2 mt-3 px-3 py-2 rounded-3 fw-semibold"
+                        className="d-inline-flex align-items-center justify-content-center gap-2 mt-3 px-3 py-2 rounded-3 fw-semibold w-100"
                         style={{
-                          color: "blue",
-                          background: "#eef2ff",
+                          color: "#fff",
+                          background: "blue",
                           textDecoration: "none",
                           fontSize: "0.9rem",
                         }}
