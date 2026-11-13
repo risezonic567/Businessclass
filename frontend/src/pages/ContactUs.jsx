@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
-import { Phone, MapPin, Mail, CheckCircle2 } from "lucide-react";
+import { Phone, MapPin, Mail, CheckCircle2, ExternalLink } from "lucide-react";
 
 export default function ContactUs() {
   const [form, setForm] = useState({
@@ -152,20 +152,25 @@ export default function ContactUs() {
                       >
                         <Mail size={16} /> info@asktravelo.com
                       </a>
+                      <a
+                        href="https://maps.google.com/?q=17662+Irvine+Blvd+Suite+9+Tustin+CA+92780"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="d-inline-flex align-items-center gap-2 mt-3 px-3 py-2 rounded-3 fw-semibold"
+                        style={{
+                          color: "blue",
+                          background: "#eef2ff",
+                          textDecoration: "none",
+                          fontSize: "0.9rem",
+                        }}
+                      >
+                        Open in Google Maps
+                        <ExternalLink size={15} />
+                      </a>
                     </div>
                   </div>
                 </div>
               </div>
-
-              <a
-                href="https://maps.google.com/?q=17662+Irvine+Blvd+Suite+9+Tustin+CA+92780"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="d-inline-block mt-3"
-                style={{ color: "blue", fontSize: "0.95rem" }}
-              >
-                Google Map: Tustin, CA office
-              </a>
             </div>
 
             <div className="col-lg-7">
