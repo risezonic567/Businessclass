@@ -84,9 +84,13 @@ export default function Passengers() {
     }
     const adults = Number(lastSearch?.adult || 1);
     const children = Number(lastSearch?.children || 0);
+    const infants = Number(lastSearch?.infant || 0);
     const rows = [];
     for (let i = 0; i < adults; i++) rows.push(emptyPassenger("adult", `adult-${i}`));
     for (let i = 0; i < children; i++) rows.push(emptyPassenger("child", `child-${i}`));
+    for (let i = 0; i < infants; i++) {
+      rows.push(emptyPassenger("infant_without_seat", `infant-${i}`));
+    }
     setFormData(rows.length ? rows : [emptyPassenger("adult", "adult-0")]);
   }, [offer, lastSearch]);
 

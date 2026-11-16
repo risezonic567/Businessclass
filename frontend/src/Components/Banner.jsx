@@ -17,6 +17,9 @@ export default function Banner() {
   const [departDate, setDepartDate] = useState("");
   const [returnDate, setReturnDate] = useState("");
   const [adults, setAdults] = useState(1);
+  const [children, setChildren] = useState(0);
+  const [infants, setInfants] = useState(0);
+  const [showPassengers, setShowPassengers] = useState(false);
   const [cabin, setCabin] = useState("business");
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
@@ -25,13 +28,46 @@ export default function Banner() {
   const dispatch = useDispatch();
   const fromRef = useRef(null);
   const toRef = useRef(null);
+  const passengersRef = useRef(null);
   const fromDebounce = useRef(null);
   const toDebounce = useRef(null);
+
+  const totalPassengers = Number(adults) + Number(children) + Number(infants);
+  const passengerLabel =
+    totalPassengers === 1 ? "1 Passenger" : `${totalPassengers} Passengers`;
+
+  const bumpCount = (type, delta) => {
+    if (type === "adults") {
+      const nextAdults = adults + delta;
+      if (nextAdults < 1 || nextAdults > 9) return;
+      const nextInfants = Math.min(infants, nextAdults);
+      if (nextAdults + children + nextInfants > 9) return;
+      setAdults(nextAdults);
+      if (nextInfants !== infants) setInfants(nextInfants);
+      return;
+    }
+    if (type === "children") {
+      const nextChildren = children + delta;
+      if (nextChildren < 0 || nextChildren > 8) return;
+      if (adults + nextChildren + infants > 9) return;
+      setChildren(nextChildren);
+      return;
+    }
+    if (type === "infants") {
+      const nextInfants = infants + delta;
+      if (nextInfants < 0 || nextInfants > adults) return;
+      if (adults + children + nextInfants > 9) return;
+      setInfants(nextInfants);
+    }
+  };
 
   useEffect(() => {
     const onDoc = (e) => {
       if (fromRef.current && !fromRef.current.contains(e.target)) setShowFrom(false);
       if (toRef.current && !toRef.current.contains(e.target)) setShowTo(false);
+      if (passengersRef.current && !passengersRef.current.contains(e.target)) {
+        setShowPassengers(false);
+      }
     };
     document.addEventListener("mousedown", onDoc);
     return () => document.removeEventListener("mousedown", onDoc);
@@ -122,8 +158,8 @@ export default function Banner() {
       returnDate: tripType === "round" ? returnDate : "",
       classe: cabin,
       adult: Number(adults) || 1,
-      children: 0,
-      infant: 0,
+      children: Number(children) || 0,
+      infant: Number(infants) || 0,
       tripType: tripType === "round" ? "roundtrip" : "oneway",
     };
 
@@ -237,6 +273,67 @@ export default function Banner() {
           color: #111;
         }
         .airport-dd button:hover { background: #f3f4f6; }
+        .pax-trigger {
+          height: 48px;
+          border-radius: 12px;
+          border: 1px solid #ced4da;
+          background: #fff;
+          width: 100%;
+          text-align: left;
+          padding: 0 12px;
+          font-size: 1rem;
+          color: #212529;
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+        }
+        .pax-panel {
+          position: absolute;
+          left: 0;
+          right: 0;
+          top: calc(100% + 4px);
+          z-index: 60;
+          background: #fff;
+          border: 1px solid #e5e7eb;
+          border-radius: 12px;
+          box-shadow: 0 12px 30px rgba(0,0,0,0.12);
+          padding: 12px;
+          min-width: 260px;
+        }
+        .pax-row {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          gap: 12px;
+          padding: 8px 0;
+        }
+        .pax-row + .pax-row { border-top: 1px solid #f1f5f9; }
+        .pax-label { font-weight: 600; font-size: 0.95rem; color: #111; }
+        .pax-hint { font-weight: 400; color: #6b7280; font-size: 0.85rem; }
+        .pax-controls { display: flex; align-items: center; gap: 10px; }
+        .pax-btn {
+          width: 32px;
+          height: 32px;
+          border-radius: 999px;
+          border: 1px solid #d1d5db;
+          background: #fff;
+          font-size: 1.1rem;
+          line-height: 1;
+          color: #111;
+        }
+        .pax-btn:disabled { opacity: 0.4; cursor: not-allowed; }
+        .pax-count { min-width: 18px; text-align: center; font-weight: 600; }
+        .pax-note { font-size: 0.78rem; color: #6b7280; margin: 8px 0 0; }
+        .pax-done {
+          margin-top: 10px;
+          width: 100%;
+          border: 0;
+          border-radius: 10px;
+          background: blue;
+          color: #fff;
+          font-weight: 600;
+          padding: 8px 12px;
+        }
       `}</style>
 
       <div className="container position-relative text-center px-3" style={{ zIndex: 2 }}>
@@ -358,19 +455,116 @@ export default function Banner() {
               </div>
             )}
 
-            <div className="col-6 col-md-4 col-lg">
+            <div className="col-6 col-md-4 col-lg position-relative" ref={passengersRef}>
               <label className="small text-muted">Passengers</label>
-              <select
-                className="form-select search-input"
-                value={adults}
-                onChange={(e) => setAdults(e.target.value)}
+              <button
+                type="button"
+                className="pax-trigger"
+                onClick={() => setShowPassengers((v) => !v)}
+                aria-expanded={showPassengers}
+                aria-haspopup="dialog"
               >
-                {[1, 2, 3, 4, 5, 6].map((n) => (
-                  <option key={n} value={n}>
-                    {n} Passenger{n > 1 ? "s" : ""}
-                  </option>
-                ))}
-              </select>
+                {passengerLabel}
+              </button>
+              {showPassengers && (
+                <div className="pax-panel" role="dialog" aria-label="Passenger counts">
+                  <div className="pax-row">
+                    <div>
+                      <div className="pax-label">Adults</div>
+                    </div>
+                    <div className="pax-controls">
+                      <button
+                        type="button"
+                        className="pax-btn"
+                        onClick={() => bumpCount("adults", -1)}
+                        disabled={adults <= 1}
+                        aria-label="Fewer adults"
+                      >
+                        −
+                      </button>
+                      <span className="pax-count">{adults}</span>
+                      <button
+                        type="button"
+                        className="pax-btn"
+                        onClick={() => bumpCount("adults", 1)}
+                        disabled={adults >= 9 || totalPassengers >= 9}
+                        aria-label="More adults"
+                      >
+                        +
+                      </button>
+                    </div>
+                  </div>
+
+                  <div className="pax-row">
+                    <div>
+                      <div className="pax-label">
+                        Children <span className="pax-hint">(Aged 2–11)</span>
+                      </div>
+                    </div>
+                    <div className="pax-controls">
+                      <button
+                        type="button"
+                        className="pax-btn"
+                        onClick={() => bumpCount("children", -1)}
+                        disabled={children <= 0}
+                        aria-label="Fewer children"
+                      >
+                        −
+                      </button>
+                      <span className="pax-count">{children}</span>
+                      <button
+                        type="button"
+                        className="pax-btn"
+                        onClick={() => bumpCount("children", 1)}
+                        disabled={children >= 8 || totalPassengers >= 9}
+                        aria-label="More children"
+                      >
+                        +
+                      </button>
+                    </div>
+                  </div>
+
+                  <div className="pax-row">
+                    <div>
+                      <div className="pax-label">
+                        Infants <span className="pax-hint">(On lap)</span>
+                      </div>
+                    </div>
+                    <div className="pax-controls">
+                      <button
+                        type="button"
+                        className="pax-btn"
+                        onClick={() => bumpCount("infants", -1)}
+                        disabled={infants <= 0}
+                        aria-label="Fewer infants"
+                      >
+                        −
+                      </button>
+                      <span className="pax-count">{infants}</span>
+                      <button
+                        type="button"
+                        className="pax-btn"
+                        onClick={() => bumpCount("infants", 1)}
+                        disabled={
+                          infants >= adults || totalPassengers >= 9
+                        }
+                        aria-label="More infants"
+                      >
+                        +
+                      </button>
+                    </div>
+                  </div>
+
+                  <p className="pax-note">Most airlines treat 10+ as a group request.</p>
+                  <button
+                    type="button"
+                    className="pax-done"
+                    onClick={() => setShowPassengers(false)}
+                  >
+                    Done
+                  </button>
+                </div>
+              )}
             </div>
 
             <div className="col-6 col-md-4 col-lg">

@@ -98,7 +98,7 @@ export default function Navbar() {
               }}
             >
               <Phone size={18} />
-              +18663075957
+              +1 (866) 307-5957
             </a>
           </div>
         </div>
