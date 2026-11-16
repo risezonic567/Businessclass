@@ -44,7 +44,9 @@ export default function Blog() {
 
           <div className="row g-4">
 
-            {blogPosts.map((post) => (
+            {[...blogPosts]
+              .sort((a, b) => new Date(b.date) - new Date(a.date))
+              .map((post) => (
               <div className="col-md-6 col-lg-4" key={post.slug}>
                 <BlogCard post={post} />
               </div>

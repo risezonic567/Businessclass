@@ -9,10 +9,17 @@ export default function SingleBlog() {
   const post = blogPosts.find((p) => p.slug === slug);
 
   if (!post)
-    return <h2 className="text-center py-5">Blog Not Found</h2>;
+    return (
+      <h2 className="text-center pb-5" style={{ paddingTop: "120px" }}>
+        Blog Not Found
+      </h2>
+    );
 
   return (
-    <div className="container py-5" style={{ maxWidth: "900px" }}>
+    <div
+      className="container pb-5"
+      style={{ maxWidth: "900px", paddingTop: "120px" }}
+    >
       <Helmet>
         <title>{post.metatitle}</title>
         <meta name="description" content={post.metadescription} />
