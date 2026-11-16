@@ -16,17 +16,29 @@ jobs:
           host: ${{ secrets.SSH_HOST }}
           username: root
           key: ${{ secrets.SSH_PRIVATE_KEY }}
+          script_stop: true
           script: |
+            set -e
             cd /var/www/Businessclass
-            
+
+            echo "=== BEFORE ==="
+            git rev-parse --short HEAD
+            git status -sb
+
+            # Discard ONLY tracked local edits that block pull (e.g. dirty
+            # docker-compose.yaml). Untracked files like backend/.env stay safe.
+            git restore .
+
+            git fetch origin main
             git pull origin main
 
+            echo "=== AFTER PULL ==="
+            git rev-parse --short HEAD
+            git log -1 --oneline
+            git status -sb
+
             docker-compose down
-
             docker system prune -f
-
             docker-compose build --no-cache
-
             docker-compose up -d
-
             docker ps
