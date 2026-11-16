@@ -4070,7 +4070,6 @@ Ultimately it’s not just the seat that makes flying business class worthwhile 
 <p>In this guide we look at the main airlines, take a look at the business class features on offer and consider what you can expect to pay for a <a href="https://www.business-classflights.com/contact-us">business class flight from Chicago to London</a>.</p>
 
 <h2 class="text-2xl font-bold mb-4">Why fly business class from Chicago to London?</h2>
-<img src="/blog20/Business Class Chicago to London - Premium International Flight.jpg.jpeg" alt="Business Class Chicago to London - Premium International Flight" class="w-full h-auto mt-4 mb-4" />
 <p>Business class is a significant step up from economy and premium economy. Travelers enjoy benefits such as:</p>
 <ul class="pl-6 list-disc mb-4">
 <li class="mt-2">Priority check-in and boarding</li>
