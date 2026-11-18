@@ -85,9 +85,21 @@ export default function Footer() {
         font-size: 0.95rem;
       }
 
-      .contact-item:hover {
+        .contact-item:hover {
         color: #ffffff;
       }
+
+      .footer-call-cta:hover {
+        color: #ffffff;
+        opacity: 0.92;
+      }
+
+      @media (max-width: 768px) {
+        .footer-call-cta {
+          justify-content: center;
+        }
+      }
+
       .address {
         display: flex;
         gap: 10px;
@@ -135,8 +147,24 @@ export default function Footer() {
           </p>
 
           <div style={{ marginTop: "20px" }}>
-            <a href="tel:+18663075957" className="contact-item">
-              <Phone size={18} /> (866) 307-5957
+            <a
+              href="tel:+18663075957"
+              className="footer-call-cta"
+              style={{
+                background: "blue",
+                color: "white",
+                borderRadius: "30px",
+                padding: "8px 22px",
+                fontWeight: "600",
+                textDecoration: "none",
+                display: "inline-flex",
+                alignItems: "center",
+                gap: "8px",
+                marginBottom: "12px",
+              }}
+            >
+              <Phone size={18} />
+              +1 (866) 307-5957
             </a>
 
             <a href="mailto:info@asktravelo.com" className="contact-item">
