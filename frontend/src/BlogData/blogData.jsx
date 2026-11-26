@@ -3239,13 +3239,13 @@ Ultimately it’s not just the seat that makes flying business class worthwhile 
 <p><a href="https://www.business-classflights.com/">Business Class flights</a> allow its customers to have the best deals possible and its experts make sure that you pay less than the others while travelling. Therefore it is always advised to book tickets from a travel agency like this.</p>
 
 <h2 class="text-2xl font-bold mb-4">FAQs</h2>
-<h3 class="text-xl font-bold mb-3">1. How to Find Cheap Business Class Flights on Qatar Airways?</h3>
+<h4 class="font-bold mb-3">1. How to Find Cheap Business Class Flights on Qatar Airways?</h4>
 <p>If you want to book cheap business class flights with Qatar Airways, book early, be flexible with your travel dates, look out for promotions from the airlines, use your frequent flier miles, and work with specialised agencies such as Business Class Flights that have access to exclusive premium airfare deals.</p>
-<h3 class="text-xl font-bold mb-3">2. What is an unpublished business class fare?</h3>
+<h4 class="font-bold mb-3">2. What is an unpublished business class fare?</h4>
 <p>Unpublished <a href="https://www.business-classflights.com/">business class fares</a> are premium cabin fares that are not displayed on airline websites or major booking platforms. These fares are usually available through authorised travel agencies that have negotiated contracts with airlines.</p>
-<h3 class="text-xl font-bold mb-3">3. Do Qatar Airways first class tickets have discounts?</h3>
+<h4 class="font-bold mb-3">3. Do Qatar Airways first class tickets have discounts?</h4>
 <p>Yes. While Qatar Airways mainly markets its award-winning Business Class on many routes, travellers can sometimes find discounted first class tickets through special offers, loyalty program redemptions, consolidator fares and specialist travel agencies.</p>
-<h3 class="text-xl font-bold mb-3">4. Is it more expensive to book Qatar Airways business class late?</h3>
+<h4 class="font-bold mb-3">4. Is it more expensive to book Qatar Airways business class late?</h4>
 <p>Booking well in advance gives access to lower fare classes and better availability in many cases. However, last minute premium cabin discounts can sometimes become available when airlines need to fill unsold seats.</p>
 
 <h2 class="text-2xl font-bold mb-4">Final Thoughts</h2>
@@ -3451,13 +3451,13 @@ Ultimately it’s not just the seat that makes flying business class worthwhile 
 <p>Business Class flights allow its customers to have the best deals possible and its experts make sure that you pay less than the others while travelling. Therefore it is always advised to book tickets from a travel agency like this.</p>
 
 <h2 class="text-2xl font-bold mb-4">FAQs</h2>
-<h3 class="text-xl font-bold mb-3">1. What are discounted business class flights?</h3>
+<h4 class="font-bold mb-3">1. What are discounted business class flights?</h4>
 <p>Discounted business class flights are premium cabin tickets sold at prices lower than standard published fares. These discounts may be available through airline promotions, travel agencies, loyalty program redemptions, or special negotiated rates.</p>
-<h3 class="text-xl font-bold mb-3">2. How can I find discounted business class flights?</h3>
+<h4 class="font-bold mb-3">2. How can I find discounted business class flights?</h4>
 <p>You can find discounted business class flights by booking early, being flexible with travel dates, using fare alerts, monitoring airline sales, and working with specialized agencies that offer premium airfare deals.</p>
-<h3 class="text-xl font-bold mb-3">3. What is the best time to book cheap business class airfare?</h3>
+<h4 class="font-bold mb-3">3. What is the best time to book cheap business class airfare?</h4>
 <p>The best time to book cheap business class airfare is usually several months before departure. However, travelers may also find savings during airline sales, off-peak travel seasons, and occasional last-minute promotions.</p>
-<h3 class="text-xl font-bold mb-3">4. Are unpublished business class fares cheaper than public fares?</h3>
+<h4 class="font-bold mb-3">4. Are unpublished business class fares cheaper than public fares?</h4>
 <p>Yes. <a href="https://www.business-classflights.com/">Unpublished business class fares</a> are often lower than fares displayed on airline websites because they are negotiated through authorized travel agencies and premium airfare consolidators.</p>
 
 <h2 class="text-2xl font-bold mb-4">Final Thoughts</h2>
@@ -3668,15 +3668,15 @@ Ultimately it’s not just the seat that makes flying business class worthwhile 
 <p>Ask yourself one question before you book: Will this extra comfort change how my trip goes? If the answer is yes, it's probably worth it. If not, your money may be better spent elsewhere. For deals and comparisons, start with <a href="https://www.business-classflights.com/">Business Class Flights</a>.</p>
 
 <h2 class="text-2xl font-bold mb-4">FAQs</h2>
-<h3 class="text-xl font-bold mb-3">Is business class really worth the money?</h3>
+<h4 class="font-bold mb-3">Is business class really worth the money?</h4>
 <p>On long flights, many travellers say yes, mainly for sleep. On short flights, it's harder to justify.</p>
-<h3 class="text-xl font-bold mb-3">What's the difference between business class and first class?</h3>
+<h4 class="font-bold mb-3">What's the difference between business class and first class?</h4>
 <p>First class offers even more space, privacy and personal service, but many airlines have reduced or dropped it, and business class has improved to fill the gap.</p>
-<h3 class="text-xl font-bold mb-3">Do all business class seats lie flat?</h3>
+<h4 class="font-bold mb-3">Do all business class seats lie flat?</h4>
 <p>No. Lie-flat seats are common on long-haul routes, but short-haul business class often has recliner seats only. Check the aircraft and seat type before booking.</p>
-<h3 class="text-xl font-bold mb-3">Does business class include lounge access?</h3>
+<h4 class="font-bold mb-3">Does business class include lounge access?</h4>
 <p>Usually yes, but it is contingent upon the airline and the fare, so check when you book.</p>
-<h3 class="text-xl font-bold mb-3">Can I upgrade from economy?</h3>
+<h4 class="font-bold mb-3">Can I upgrade from economy?</h4>
 <p>Often, yes, using miles, cash or bidding. Availability depends on the airline and the flight.</p>
 `,
 
@@ -3906,17 +3906,17 @@ Ultimately it’s not just the seat that makes flying business class worthwhile 
 <p>Business class wins on comfort every time, so the better question is what that extra comfort is worth to you on this particular flight. Looking at <a href="https://www.business-classflights.com/">premium cabin deals</a> for your dates helps you decide with real numbers.</p>
 
 <h2 class="text-2xl font-bold mb-4">FAQs</h2>
-<h3 class="text-xl font-bold mb-3">Is premium economy worth it over economy?</h3>
+<h4 class="text-xl font-bold mb-3">Is premium economy worth it over economy?</h4>
 <p>On long flights, usually. The extra space and better service make a clear difference without a huge jump in price.</p>
-<h3 class="text-xl font-bold mb-3">Is business class worth the money?</h3>
+<h4 class="text-xl font-bold mb-3">Is business class worth the money?</h4>
 <p>On overnight and ultra-long-haul flights, or when you need to arrive rested, often yes. On short flights, rarely.</p>
-<h3 class="text-xl font-bold mb-3">Can you sleep in premium economy?</h3>
+<h4 class="text-xl font-bold mb-3">Can you sleep in premium economy?</h4>
 <p>Better than in economy, thanks to the recline and leg rest, but you won't lie flat. Light sleepers may still struggle.</p>
-<h3 class="text-xl font-bold mb-3">Do premium economy passengers get lounge access?</h3>
+<h4 class="text-xl font-bold mb-3">Do premium economy passengers get lounge access?</h4>
 <p>Usually not. A few airlines include it on certain fares, so check your ticket.</p>
-<h3 class="text-xl font-bold mb-3">Is premium economy closer to economy or business class?</h3>
+<h4 class="text-xl font-bold mb-3">Is premium economy closer to economy or business class?</h4>
 <p>Closer to economy, just a noticeably nicer version of it.</p>
-<h3 class="text-xl font-bold mb-3">How do you afford business class?</h3>
+<h4 class="text-xl font-bold mb-3">How do you afford business class?</h4>
 <p>Miles and points, sale fares, upgrade offers and early booking are the usual routes.</p>
 
 <h2 class="text-2xl font-bold mb-4">Final thoughts</h2>
@@ -4085,7 +4085,7 @@ Ultimately it’s not just the seat that makes flying business class worthwhile 
 <img src="/blog20/Business Class Luxury Business Class Cabin - Lie-Flat Seat Experience.jpg.jpeg" alt="Business Class Luxury Cabin - Lie-Flat Seat Experience" class="w-full h-auto mt-4 mb-4" />
 <p>Several airlines run direct and connecting services between Chicago and London. Each one has its own business class offering.</p>
 
-<h3 class="text-xl font-bold mb-3">1. British Airways Club World</h3>
+<h4 class="text-xl font-bold mb-3">1. British Airways Club World</h4>
 <p>British Airways is one of the most popular airlines for the Chicago to London route in business class.</p>
 <p><strong>Highlights:</strong></p>
 <ul class="pl-6 list-disc mb-4">
@@ -4098,7 +4098,7 @@ Ultimately it’s not just the seat that makes flying business class worthwhile 
 <p>British Airways have had a number of aircraft upgraded with their Club Suite product (privacy doors and increased personal space).</p>
 <p><strong>Best for:</strong> The traveller who wants the ultimate in convenience and great connectivity to London.</p>
 
-<h3 class="text-xl font-bold mb-3">2. United Polaris Business Class</h3>
+<h4 class="text-xl font-bold mb-3">2. United Polaris Business Class</h4>
 <p>United flies daily non-stop between Chicago and London.</p>
 <p><strong>Highlights:</strong></p>
 <ul class="pl-6 list-disc mb-4">
@@ -4111,7 +4111,7 @@ Ultimately it’s not just the seat that makes flying business class worthwhile 
 <p>United Polaris is all about the comfortable sleep and the smooth airport experience.</p>
 <p><strong>Best for:</strong> Frequent business travellers and MileagePlus members.</p>
 
-<h3 class="text-xl font-bold mb-3">3. American Airlines Flagship Business</h3>
+<h4 class="text-xl font-bold mb-3">3. American Airlines Flagship Business</h4>
 <p>American Airlines provide a very competitive premium service on the Chicago-London route.</p>
 <p><strong>Highlights:</strong></p>
 <ul class="pl-6 list-disc mb-4">
@@ -4123,7 +4123,7 @@ Ultimately it’s not just the seat that makes flying business class worthwhile 
 <p>Passengers benefit from smooth connections across the US and Europe.</p>
 <p><strong>Best for:</strong> Oneworld alliance travellers.</p>
 
-<h3 class="text-xl font-bold mb-3">4. Virgin Atlantic Upper Class</h3>
+<h4 class="text-xl font-bold mb-3">4. Virgin Atlantic Upper Class</h4>
 <p>Virgin Atlantic is consistently rated as one of the most pleasant premium cabin experiences.</p>
 <p><strong>Highlights:</strong></p>
 <ul class="pl-6 list-disc mb-4">
@@ -4136,7 +4136,7 @@ Ultimately it’s not just the seat that makes flying business class worthwhile 
 <p>Virgin Atlantic is all about luxury but in a much more relaxed, modern way than your average carrier.</p>
 <p><strong>Best for:</strong> The traveller who cares about the service and the atmosphere on board.</p>
 
-<h3 class="text-xl font-bold mb-3">5. Delta One</h3>
+<h4 class="text-xl font-bold mb-3">5. Delta One</h4>
 <p>Delta works very closely with Virgin Atlantic on the transatlantic routes.</p>
 <p><strong>Highlights:</strong></p>
 <ul class="pl-6 list-disc mb-4">
@@ -4190,15 +4190,15 @@ Ultimately it’s not just the seat that makes flying business class worthwhile 
 <p>Popular connection points are New York, Washington D.C., Boston, Dublin and Reykjavik.</p>
 
 <h2 class="text-2xl font-bold mb-4">FAQs</h2>
-<h3 class="text-xl font-bold mb-3">1. What's the average cost of a business class flight from Chicago to London?</h3>
+<h4 class="text-xl font-bold mb-3">1. What's the average cost of a business class flight from Chicago to London?</h4>
 <p><a href="https://www.business-classflights.com/contact-us">Business class fares from Chicago to London</a> are generally in the region of $2k to $6k and above (depending on the airline, time of year, when you book and of course availability).</p>
-<h3 class="text-xl font-bold mb-3">2. Which airline has the best business class from Chicago to London?</h3>
+<h4 class="text-xl font-bold mb-3">2. Which airline has the best business class from Chicago to London?</h4>
 <p>The popular ones are of course British Airways, United, American, Virgin Atlantic and Lufthansa. The one that's right for you will depend on your budget and what you're looking for in terms of facilities and the like.</p>
-<h3 class="text-xl font-bold mb-3">3. How long is a business class flight from Chicago to London?</h3>
+<h4 class="text-xl font-bold mb-3">3. How long is a business class flight from Chicago to London?</h4>
 <p>Non-stop flights generally take between 7 and 9 hours (depending on the weather and the particular route).</p>
-<h3 class="text-xl font-bold mb-3">4. Is business class worth it on the Chicago to London route?</h3>
+<h4 class="text-xl font-bold mb-3">4. Is business class worth it on the Chicago to London route?</h4>
 <p>Many people will find business class well worth it for the lie-flat seats, lounge access, priority services, the quality of the food and the general comfort on long haul/overnight flights.</p>
-<h3 class="text-xl font-bold mb-3">5. Which airline has the best lie-flat seats on this route?</h3>
+<h4 class="text-xl font-bold mb-3">5. Which airline has the best lie-flat seats on this route?</h4>
 <p>British Airways Club Suite, Virgin Atlantic Upper Class, and select United Polaris cabins are often praised for offering spacious lie-flat seats and enhanced privacy.</p>
 
 <h2 class="text-2xl font-bold mb-4">Final Thoughts</h2>
@@ -4418,15 +4418,15 @@ Ultimately it’s not just the seat that makes flying business class worthwhile 
 <p>If you need help comparing <a href="https://www.business-classflights.com/">business class</a> options or want to understand what's included in your fare, the team at <a href="https://www.business-classflights.com/">business class flight</a> is happy to point you in the right direction.</p>
 
 <h2 class="text-2xl font-bold mb-4">Frequently Asked Questions</h2>
-<h3 class="text-xl font-bold mb-3">How many bags can I check in business class on international flights?</h3>
+<h4 class="text-xl font-bold mb-3">How many bags can I check in business class on international flights?</h4>
 <p>Most airlines allow two checked bags, often up to 32 kg each. Some use a total weight limit instead, so check your airline's policy.</p>
-<h3 class="text-xl font-bold mb-3">Can I bring extra bags in business class?</h3>
+<h4 class="text-xl font-bold mb-3">Can I bring extra bags in business class?</h4>
 <p>Yes, but you'll usually pay an excess baggage fee. Some airlines offer discounted rates if you pre-purchase extra allowance online.</p>
-<h3 class="text-xl font-bold mb-3">Is the business class luggage allowance the same on every airline?</h3>
+<h4 class="text-xl font-bold mb-3">Is the business class luggage allowance the same on every airline?</h4>
 <p>No. It varies by airline, route and fare type. Always verify before travel.</p>
-<h3 class="text-xl font-bold mb-3">Do business class passengers get two carry-on bags?</h3>
+<h4 class="text-xl font-bold mb-3">Do business class passengers get two carry-on bags?</h4>
 <p>Usually yes: one cabin bag and one personal item, though size and weight limits differ.</p>
-<h3 class="text-xl font-bold mb-3">Does frequent flyer status add to my allowance?</h3>
+<h4 class="text-xl font-bold mb-3">Does frequent flyer status add to my allowance?</h4>
 <p>Often it does. Elite members of many loyalty programs receive extra bags or additional weight.</p>
 
 <h2 class="text-2xl font-bold mb-4">Final Thoughts</h2>
@@ -4596,10 +4596,10 @@ Ultimately it’s not just the seat that makes flying business class worthwhile 
 
 <h2 class="text-2xl font-bold mb-4">How Airline Refund Policies Typically Work</h2>
 <p>When you're eligible for cancellation the refund will normally fall into one of three categories.</p>
-<h3 class="text-xl font-bold mb-3">Full Refund</h3>
+<h4 class="text-xl font-bold mb-3">Full Refund</h4>
 <p>Fully refundable tickets are usually eligible for a refund to the original method of payment.</p>
 <p>This is the option you'll see on premium corporate bookings and on unrestricted fares.</p>
-<h3 class="text-xl font-bold mb-3">Partial Refund</h3>
+<h4 class="text-xl font-bold mb-3">Partial Refund</h4>
 <p>Certain tickets allow cancellations but deduct:</p>
 <ul class="pl-6 list-disc mb-4">
 <li class="mt-2">Service fees</li>
@@ -4607,7 +4607,7 @@ Ultimately it’s not just the seat that makes flying business class worthwhile 
 <li class="mt-2">Fare penalties</li>
 </ul>
 <p>The balance remaining is then refunded.</p>
-<h3 class="text-xl font-bold mb-3">Travel Credit or Voucher</h3>
+<h4 class="text-xl font-bold mb-3">Travel Credit or Voucher</h4>
 <p>Rather than a cash reimbursement some airlines will issue you with future travel credits.</p>
 <p>These credits often include:</p>
 <ul class="pl-6 list-disc mb-4">
@@ -4673,11 +4673,11 @@ Ultimately it’s not just the seat that makes flying business class worthwhile 
 <p>A discounted fare can work out quite expensive very quickly if you don't take the cancellation restrictions into account.</p>
 
 <h2 class="text-2xl font-bold mb-4">FAQs</h2>
-<h3 class="text-xl font-bold mb-3">1. Can I cancel a business class ticket and get a full refund?</h3>
+<h4 class="text-xl font-bold mb-3">1. Can I cancel a business class ticket and get a full refund?</h4>
 <p>It will vary depending on the fare type you've bought. A fully refundable Business class ticket will generally be eligible for a full refund. Discounted or promotional fares may or may not be eligible for a refund and may in fact be subject to a cancellation fee.</p>
-<h3 class="text-xl font-bold mb-3">2. Are business class tickets always refundable?</h3>
+<h4 class="text-xl font-bold mb-3">2. Are business class tickets always refundable?</h4>
 <p>No, it's a very common myth that business class fares are automatically refundable. In fact many airlines will sell both refundable and non-refundable business class tickets.</p>
-<h3 class="text-xl font-bold mb-3">3. What's the difference between refundable and non-refundable business class fares?</h3>
+<h4 class="text-xl font-bold mb-3">3. What's the difference between refundable and non-refundable business class fares?</h4>
 <p>A refundable fare allows you to cancel and get your money back in accordance with the airline's policy. A non-refundable fare may only give you travel credit, a partial refund or no refund at all.</p>
 
 <h2 class="text-2xl font-bold mb-4">Final Thoughts</h2>
@@ -4846,7 +4846,7 @@ Ultimately it’s not just the seat that makes flying business class worthwhile 
 <img src="/blog23/Premium Airlines and Business Class Airport Experience.jpg.jpeg" alt="Premium Airlines and Business Class Airport Experience" class="w-full h-auto mt-4 mb-4" />
 <p>Several of the world's leading airlines offer business class services on the Miami to London route.</p>
 
-<h3 class="text-xl font-bold mb-3">British Airways</h3>
+<h4 class="text-xl font-bold mb-3">British Airways</h4>
 <p>British Airways is by far the most popular airline for this route. They operate direct flights from Miami to London Heathrow on their Club World business class product.</p>
 <p>Key features include:</p>
 <ul class="pl-6 list-disc mb-4">
@@ -4858,7 +4858,7 @@ Ultimately it’s not just the seat that makes flying business class worthwhile 
 </ul>
 <p>The airline's non-stop service is of course a big attraction for the business traveller.</p>
 
-<h3 class="text-xl font-bold mb-3">American Airlines</h3>
+<h4 class="text-xl font-bold mb-3">American Airlines</h4>
 <p>American Airlines operate direct flights from Miami to London Heathrow and provide their Flagship Business Class experience.</p>
 <p>Benefits often include:</p>
 <ul class="pl-6 list-disc mb-4">
@@ -4870,7 +4870,7 @@ Ultimately it’s not just the seat that makes flying business class worthwhile 
 </ul>
 <p>Miami being a major hub for American Airlines means there are a great many connecting flights available.</p>
 
-<h3 class="text-xl font-bold mb-3">Virgin Atlantic</h3>
+<h4 class="text-xl font-bold mb-3">Virgin Atlantic</h4>
 <p>Virgin Atlantic is famous for their stylish and comfortable premium travel experience.</p>
 <p>Business class travelers can enjoy:</p>
 <ul class="pl-6 list-disc mb-4">
@@ -4882,7 +4882,7 @@ Ultimately it’s not just the seat that makes flying business class worthwhile 
 </ul>
 <p>Lots of travellers do actually like the airline for its customer orientation and the distinct on board feel.</p>
 
-<h3 class="text-xl font-bold mb-3">Delta Air Lines</h3>
+<h4 class="text-xl font-bold mb-3">Delta Air Lines</h4>
 <p>Delta offers business class on the transatlantic routes via partner and codeshare arrangements.</p>
 <p>Its premium cabin typically provides:</p>
 <ul class="pl-6 list-disc mb-4">
@@ -4910,15 +4910,15 @@ Ultimately it’s not just the seat that makes flying business class worthwhile 
 <h2 class="text-2xl font-bold mb-4">How to Find Cheap Business Class Miami London Deals</h2>
 <img src="/blog23/Business Class Traveler Reviewing Flight Cancellation Options.jpg.jpeg" alt="Finding Miami to London business class deals" class="w-full h-auto mt-4 mb-4" />
 <p>It's quite possible to find some fairly cheap business class Miami-London tickets if you know where to look and when to book.</p>
-<h3 class="text-xl font-bold mb-3">Book Early</h3>
+<h4 class="text-xl font-bold mb-3">Book Early</h4>
 <p>One of the best ways to save is to book several months out. The airlines will often release the lower priced premium seats a long way in advance.</p>
-<h3 class="text-xl font-bold mb-3">Stay Flexible</h3>
+<h4 class="text-xl font-bold mb-3">Stay Flexible</h4>
 <p>Flexible dates can make a massive difference to the price of your ticket. Flying midweek rather than on the weekend will often get you a better rate.</p>
-<h3 class="text-xl font-bold mb-3">Compare Multiple Airlines</h3>
+<h4 class="text-xl font-bold mb-3">Compare Multiple Airlines</h4>
 <p>Different airlines are constantly running promotions. It's absolutely worth comparing a number of them to see which one is the best value.</p>
-<h3 class="text-xl font-bold mb-3">Watch for Seasonal Promotions</h3>
+<h4 class="text-xl font-bold mb-3">Watch for Seasonal Promotions</h4>
 <p>Airlines are constantly running premium cabin sales throughout the year. Signing up for fare alerts is a good way to capitalise on the occasional limited time discount.</p>
-<h3 class="text-xl font-bold mb-3">Use Specialty Travel Services</h3>
+<h4 class="text-xl font-bold mb-3">Use Specialty Travel Services</h4>
 <p>Companies that specialise in premium cabin bookings will often have access to discounted business class inventory. <a href="https://www.business-classflights.com/">Business Class Flights</a> can be a good way of looking at the premium options and spotting some good value fares on the transatlantic routes.</p>
 
 <h2 class="text-2xl font-bold mb-4">Business Class Airport Experience</h2>
@@ -4953,15 +4953,15 @@ Ultimately it’s not just the seat that makes flying business class worthwhile 
 <p>Whether you're looking at business class flights Miami to London, hunting around for some <a href="https://www.business-classflights.com/contact-us">cheap business class Miami to London</a> deals or simply trying to assess the various airline options available, a bit of careful planning can go a long way to securing great value. Booking well in advance, being flexible and using reputable providers such as Business Class Flights can all help you to enjoy the benefits of business class whilst at the same time keeping your travel budget under control.</p>
 
 <h2 class="text-2xl font-bold mb-4">FAQs</h2>
-<h3 class="text-xl font-bold mb-3">1. Which airline provides the best business class experience on the Miami to London route?</h3>
+<h4 class="text-xl font-bold mb-3">1. Which airline provides the best business class experience on the Miami to London route?</h4>
 <p>British Airways, Virgin Atlantic and American Airlines are all in the top tier of the market for a number of reasons really, they all have lie-flat seats, they all have a premium service and they all offer direct flights.</p>
-<h3 class="text-xl font-bold mb-3">2. How much does business class from Miami to London typically cost?</h3>
+<h4 class="text-xl font-bold mb-3">2. How much does business class from Miami to London typically cost?</h4>
 <p>Prices will vary according to the season, the airline and the date you book. Booking well in advance will often help you to get the best fare.</p>
-<h3 class="text-xl font-bold mb-3">3. How do I go about finding cheap business class Miami to London tickets?</h3>
+<h4 class="text-xl font-bold mb-3">3. How do I go about finding cheap business class Miami to London tickets?</h4>
 <p>Book in advance, be flexible with your travel dates, compare airlines and keep an eye out for any special business class promotions.</p>
-<h3 class="text-xl font-bold mb-3">4. Are there any direct business class flights from Miami to London?</h3>
+<h4 class="text-xl font-bold mb-3">4. Are there any direct business class flights from Miami to London?</h4>
 <p>Yes. British Airways and American Airlines operate nonstop business class services between Miami and London.</p>
-<h3 class="text-xl font-bold mb-3">5. Is business class worth it for the Miami to London route?</h3>
+<h4 class="text-xl font-bold mb-3">5. Is business class worth it for the Miami to London route?</h4>
 <p>For many travelers, yes. The lie-flat seats, lounge access, premium dining, and reduced travel fatigue make the upgrade worthwhile.</p>
 `,
 
@@ -5125,16 +5125,16 @@ Ultimately it’s not just the seat that makes flying business class worthwhile 
 <img src="/blog24/Best Airlines for San Francisco to London - Premium Airport Experience.jpg.jpeg" alt="Best airlines for San Francisco to London premium airport experience" class="w-full h-auto mt-4 mb-4" />
 <p>Three airlines fly nonstop between the two cities, and a fourth can get you there with a connection. Schedules change, so always confirm before you book.</p>
 
-<h3 class="text-xl font-bold mb-3">British Airways</h3>
+<h4 class="text-xl font-bold mb-3">British Airways</h4>
 <p>It runs the route with multiple flights, and business class (Club World) is a solid choice, especially if you're connecting onward from Heathrow. The cabin depends on the aircraft: newer planes have the Club Suite with a sliding door, while older ones have the older layout. Check which one you're getting.</p>
 
-<h3 class="text-xl font-bold mb-3">United Airlines</h3>
+<h4 class="text-xl font-bold mb-3">United Airlines</h4>
 <p>United flies nonstop out of SFO with its Polaris business class. Every seat is lie-flat with direct aisle access, and SFO has a Polaris lounge, which is nice before a long flight. Many frequent flyers pick United for the comfort of the sleeping setup.</p>
 
-<h3 class="text-xl font-bold mb-3">Virgin Atlantic</h3>
+<h4 class="text-xl font-bold mb-3">Virgin Atlantic</h4>
 <p>Its Upper Class cabin has a reputation for friendly service and a bit more personality than the others. If you like an airline with some character, it's worth a look.</p>
 
-<h3 class="text-xl font-bold mb-3">American Airlines</h3>
+<h4 class="text-xl font-bold mb-3">American Airlines</h4>
 <p>American doesn't fly nonstop from San Francisco to London, but it can get you there through a connection or a partner flight. That can be handy if you're collecting miles with them, though it adds time.</p>
 
 <h2 class="text-2xl font-bold mb-4">What to expect on business class flights SFO to Heathrow</h2>
@@ -5155,15 +5155,15 @@ Ultimately it’s not just the seat that makes flying business class worthwhile 
 <p>Comparing premium fares across airlines gets tiring quickly. Fare rules differ, schedules differ, and the cheapest option isn't always the best seat. Business Class Flights is built for exactly this. We help travelers compare options across carriers on routes like SFO to London, so you can see the choices side by side and pick what fits your trip and budget. If you'd rather talk to a real person about <a href="https://www.business-classflights.com/">business class flights SFO to Heathrow</a>, our team is happy to help.</p>
 
 <h2 class="text-2xl font-bold mb-4">Frequently Asked Questions</h2>
-<h3 class="text-xl font-bold mb-3">1. What is the cheapest month to fly business class from San Francisco to London?</h3>
+<h4 class="font-bold mb-3">1. What is the cheapest month to fly business class from San Francisco to London?</h4>
 <p>Late January, February and early November are usually the cheapest, thanks to lower demand. Fares always vary, so compare a few dates.</p>
-<h3 class="text-xl font-bold mb-3">2. Which airlines fly nonstop from San Francisco to London in business class?</h3>
+<h4 class="font-bold mb-3">2. Which airlines fly nonstop from San Francisco to London in business class?</h4>
 <p>British Airways, United Airlines and Virgin Atlantic operate nonstop flights on this route. Schedules can change, so confirm before booking.</p>
-<h3 class="text-xl font-bold mb-3">3. How long is the flight from San Francisco to London?</h3>
+<h4 class="font-bold mb-3">3. How long is the flight from San Francisco to London?</h4>
 <p>Usually about 10 to 11 hours, depending on winds and routing. The return flight is typically a little shorter or longer depending on the day.</p>
-<h3 class="text-xl font-bold mb-3">4. When should I book business class flights SFO to Heathrow?</h3>
+<h4 class="font-bold mb-3">4. When should I book business class flights SFO to Heathrow?</h4>
 <p>Two to six months ahead is a good window for price and seat choice. Last-minute deals do exist, but they're hard to count on.</p>
-<h3 class="text-xl font-bold mb-3">5. Is business class worth it on this route?</h3>
+<h4 class="font-bold mb-3">5. Is business class worth it on this route?</h4>
 <p>For an overnight flight this long, most people say yes. A real bed, lounge access and priority service make a big difference to how you feel on arrival.</p>
 
 <h2 class="text-2xl font-bold mb-4">Final thoughts</h2>
